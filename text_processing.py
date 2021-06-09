@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import re
 import os
+import csv
 
 
 def find_strings(keywords, search_list):
@@ -78,154 +79,155 @@ def yes_if_exists(s):
         return s
 
 
-craigslist_data = {}
+with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
+    fieldnames = ['post_id', 'title', 'price', 'neighborhood', 'map_address', 'street_address', 'latitude', 'longitude', 'data_accuracy', 'posted', 'updated', 'available', 'housing_type', 'bedrooms', 'bathooms',
+                  'laundry', 'parking', 'sqft', 'flooring', 'rent_period', 'app_fee', 'broker_fee', 'cats_ok', 'dogs_ok', 'no_smoking', 'furnished', 'wheelchair_access', 'AC', 'EV_charging', 'posting_body', 'images', 'url']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
 
-# get file path for each html file in directory
-for file in os.listdir('craigslist'):
-    file_path = os.path.join('craigslist', file)
-    if not os.path.isfile(file_path):
-        continue
+    # get file path for each html file in directory
+    for file in os.listdir('craigslist'):
+        file_path = os.path.join('craigslist', file)
+        if not os.path.isfile(file_path):
+            continue
 
-    # open html and scrape data
-    with open(file_path, encoding='utf-8') as html_file:
-        soup = BeautifulSoup(html_file, 'lxml')
+        # open html and create soup
+        with open(file_path, encoding='utf-8') as html_file:
+            soup = BeautifulSoup(html_file, 'lxml')
 
-    # get unique post ID which will act as the key for each post dictionary
-    post_id = soup.find(string=re.compile("post id")).split(':')[1].strip()
+        # get unique post ID 
+        post_id = soup.find(string=re.compile("post id")).split(':')[1].strip()
 
-    # find posting title text which will include pricing, post title, and maybe neighborhood
-    title_text = soup.find('span', class_="postingtitletext")
+        # find posting title text which will include pricing, post title, and neighborhood (optional)
+        title_text = soup.find('span', class_="postingtitletext")
 
-    price = title_text.find(
-        'span', class_="price").text.strip().replace("$", "").replace(",", "")
+        price = title_text.find('span', class_="price").text.strip(
+        ).replace("$", "").replace(",", "")
 
-    post_hood = title_text.find('small')
-    if post_hood is not None:
-        neighborhood = post_hood.text
-    else:
-        neighborhood = "NA"
+        post_hood = title_text.find('small')
+        if post_hood is not None:
+            neighborhood = post_hood.text
+        else:
+            neighborhood = "NA"
 
-    # get availability date
-    available = soup.find(
-        class_="housing_movein_now property_date shared-line-bubble").get('data-date')
+        # get availability date
+        available = soup.find(
+            class_="housing_movein_now property_date shared-line-bubble").get('data-date')
 
-    # get map and address info
-    mapbox = soup.find('div', class_='mapbox')
-    latitude = mapbox.find(id='map').get('data-latitude')
-    longitude = mapbox.find(id='map').get('data-longitude')
-    data_accuracy = mapbox.find(id='map').get('data-accuracy')
-    map_address = mapbox.find(class_="mapaddress").text
-    if "near" in map_address:
-        street_address = map_address.split('near')[0]
-    else:
-        street_address = map_address
+        # get map and address info
+        mapbox = soup.find('div', class_='mapbox')
+        latitude = mapbox.find(id='map').get('data-latitude')
+        longitude = mapbox.find(id='map').get('data-longitude')
+        data_accuracy = mapbox.find(id='map').get('data-accuracy')
+        map_address = mapbox.find(class_="mapaddress").text
+        if "near" in map_address:
+            street_address = map_address.split('near')[0]
+        else:
+            street_address = map_address
 
-    # posting/updating dates and times
-    posting_infos = soup.find('div', class_='postinginfos')
-    timing = posting_infos.find_all('time', class_='date timeago')
-    datetime = []
-    for item in timing:
-        datetime.append(item.text)
-    # first item in list will be posting datetime
-    posted = datetime[0]
-    # any additional datetimes will be updates
-    if len(datetime) > 1:
-        updated = datetime[1]
-    else:
-        updated = "NA"
+        # posting/updating dates and times
+        posting_infos = soup.find('div', class_='postinginfos')
+        timing = posting_infos.find_all('time', class_='date timeago')
+        datetime = []
+        for item in timing:
+            datetime.append(item.text)
+        # first item in list will be posting datetime
+        posted = datetime[0]
+        # any additional datetimes will be updates
+        if len(datetime) > 1:
+            updated = datetime[1]
+        else:
+            updated = "NA"
 
-    # get body of post
-    posting_body = soup.find('section', id="postingbody")
+        # get body of post
+        posting_body = soup.find('section', id="postingbody")
 
-    # get urls for images
-    images = []
-    imgList = soup.find('div', id='thumbs')
-    if imgList is not None:
-        for tag in imgList.find_all('a'):
-            img_url = tag.get('href')
-            images.append(img_url)
-    else:
-        images = "NA"
+        # get urls for images
+        images = []
+        imgList = soup.find('div', id='thumbs')
+        if imgList is not None:
+            for tag in imgList.find_all('a'):
+                img_url = tag.get('href')
+                images.append(img_url)
+        else:
+            images = "NA"
 
-    # this gets all the posting details that appear under the map
-    attrgroup = soup.find_all('p', class_="attrgroup")
-    specs = []
-    for group in attrgroup:
-        for item in group.find_all("span"):
-            specs.append(item.text)
+        # this gets all the posting details that appear under the map
+        attrgroup = soup.find_all('p', class_="attrgroup")
+        specs = []
+        for group in attrgroup:
+            for item in group.find_all("span"):
+                specs.append(item.text)
 
-    # required information:
-    bedbath = find_strings(["BR"], specs)
-    laundry = find_strings(['w/d', 'laundry'], specs)
-    parking = find_strings(['parking', 'garage', 'carport'], specs)
+        # required information:
+        bedbath = find_strings(["BR"], specs)
+        laundry = find_strings(['w/d', 'laundry'], specs)
+        parking = find_strings(['parking', 'garage', 'carport'], specs)
 
-    # optional details
-    housing_type = ['apartment', 'condo', 'cottage', 'duplex', 'flat', 'house',
-                    'in-law', 'loft', 'townhouse', 'manufactured', 'assisted', 'land']
-    housing = find_strings(housing_type, specs)
+        # optional details
+        housing_type = ['apartment', 'condo', 'cottage', 'duplex', 'flat', 'house',
+                        'in-law', 'loft', 'townhouse', 'manufactured', 'assisted', 'land']
+        housing = find_strings(housing_type, specs)
 
-    sqft = find_strings(['ft2'], specs)
+        sqft = find_strings(['ft2'], specs)
 
-    flooring = clean_if_exists(find_strings(['flooring'], specs))
+        flooring = clean_if_exists(find_strings(['flooring'], specs))
 
-    rent_period = clean_if_exists(find_strings(['rent'], specs))
+        rent_period = clean_if_exists(find_strings(['rent'], specs))
 
-    app_fee = clean_if_exists(find_strings(['application'], specs))
+        app_fee = clean_if_exists(find_strings(['application'], specs))
 
-    broker_fee = clean_if_exists(find_strings(['broker'], specs))
+        broker_fee = clean_if_exists(find_strings(['broker'], specs))
 
-    cats_ok = yes_if_exists(find_strings(['cats'], specs))
+        cats_ok = yes_if_exists(find_strings(['cats'], specs))
 
-    dogs_ok = yes_if_exists(find_strings(['dogs'], specs))
+        dogs_ok = yes_if_exists(find_strings(['dogs'], specs))
 
-    no_smoking = yes_if_exists(find_strings(['smoking'], specs))
+        no_smoking = yes_if_exists(find_strings(['smoking'], specs))
 
-    furnished = yes_if_exists(find_strings(['furnished'], specs))
+        furnished = yes_if_exists(find_strings(['furnished'], specs))
 
-    wheelchair_access = yes_if_exists(find_strings(["wheelchair"], specs))
+        wheelchair_access = yes_if_exists(find_strings(["wheelchair"], specs))
 
-    AC = yes_if_exists(find_strings(['air'], specs))
+        AC = yes_if_exists(find_strings(['air'], specs))
 
-    EV_charging = yes_if_exists(find_strings(['EV'], specs))
+        EV_charging = yes_if_exists(find_strings(['EV'], specs))
 
-    post_details = {
-        "title": soup.title.text,
-        "price": int(price),
-        "neighborhood": neighborhood,
-        "map_address": map_address,
-        "street_address": street_address,
-        "latitude": float(latitude),
-        "longitude": float(longitude),
-        "data_accuracy": int(data_accuracy),
-        "post_date": post_date,
-        "updated": updated,
-        "available": available,
-        "housing_type": housing,
-        "bedrooms": bedbath.split('/')[0].strip(),
-        "bathooms": bedbath.split('/')[1].strip(),
-        "laundry": laundry,
-        "parking": parking,
-        "sqft": sqft,
-        "flooring": flooring,
-        "rent_period": rent_period,
-        "app_fee": app_fee,
-        "broker_fee": broker_fee,
-        "cats_ok": cats_ok,
-        "dogs_ok": dogs_ok,
-        "no_smoking": no_smoking,
-        "furnished": furnished,
-        "wheelchair_access": wheelchair_access,
-        "AC": AC,
-        "EV_charging": EV_charging,
-        "posting_body": posting_body.text.replace("\n", " "),
-        "images": images,
-        "url": soup.find('link', rel='canonical').get('href')
+        post_details = {
+            "post_id": post_id,
+            "title": soup.title.text,
+            "price": int(price),
+            "neighborhood": neighborhood,
+            "map_address": map_address,
+            "street_address": street_address,
+            "latitude": float(latitude),
+            "longitude": float(longitude),
+            "data_accuracy": int(data_accuracy),
+            "posted": posted.strip(),
+            "updated": updated.strip(),
+            "available": available.strip(),
+            "housing_type": housing,
+            "bedrooms": bedbath.split('/')[0].strip(),
+            "bathooms": bedbath.split('/')[1].strip(),
+            "laundry": laundry,
+            "parking": parking,
+            "sqft": sqft,
+            "flooring": flooring,
+            "rent_period": rent_period,
+            "app_fee": app_fee,
+            "broker_fee": broker_fee,
+            "cats_ok": cats_ok,
+            "dogs_ok": dogs_ok,
+            "no_smoking": no_smoking,
+            "furnished": furnished,
+            "wheelchair_access": wheelchair_access,
+            "AC": AC,
+            "EV_charging": EV_charging,
+            "posting_body": posting_body.text.replace("\n", " "),
+            "images": images,
+            "url": soup.find('link', rel='canonical').get('href')
+        }
 
-    }
+        writer.writerow(post_details)
 
-    # add post entry to main dictionary
-    craigslist_data[post_id] = post_details
-
-print(craigslist_data)
-
-# print(post)
+csvfile.close()
