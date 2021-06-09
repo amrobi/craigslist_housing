@@ -6,8 +6,9 @@ import csv
 
 def find_strings(keywords, search_list):
     """ Searches for strings in a list and returns matches. This will be used to find 
-    certain posting details. Some are required like laundry and parking. Others are 
-    optional like flooring, rent period, pet info, etc. 
+    certain posting details from an aggregated list of options that users have when they create the post.
+    Some are required like laundry and parking. Others are optional like flooring type, rent period, 
+    pet info, AC, etc. 
 
     Parameters 
     ----------
@@ -78,8 +79,9 @@ def yes_if_exists(s):
     else:
         return s
 
-
+# open csv
 with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
+    # these were generated from the dictionary keys at the end of all this code and just copied up here
     fieldnames = ['post_id', 'title', 'price', 'neighborhood', 'map_address', 'street_address', 'latitude', 'longitude', 'data_accuracy', 'posted', 'updated', 'available', 'housing_type', 'bedrooms', 'bathooms',
                   'laundry', 'parking', 'sqft', 'flooring', 'rent_period', 'app_fee', 'broker_fee', 'cats_ok', 'dogs_ok', 'no_smoking', 'furnished', 'wheelchair_access', 'AC', 'EV_charging', 'posting_body', 'images', 'url']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -98,12 +100,17 @@ with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
         # get unique post ID 
         post_id = soup.find(string=re.compile("post id")).split(':')[1].strip()
 
+        # get post url
+        url = soup.find('link', rel='canonical').get('href')
+
         # find posting title text which will include pricing, post title, and neighborhood (optional)
         title_text = soup.find('span', class_="postingtitletext")
 
+        # find pricing info, extract text, strip whitespace, remove non-integer characters
         price = title_text.find('span', class_="price").text.strip(
         ).replace("$", "").replace(",", "")
 
+        # if neighborhood is included (doesn't have to be), will be found here in the title text
         post_hood = title_text.find('small')
         if post_hood is not None:
             neighborhood = post_hood.text
@@ -111,6 +118,7 @@ with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
             neighborhood = "NA"
 
         # get availability date
+        # I choose to grab the actual date instead of the text 'available jul 1' for example
         available = soup.find(
             class_="housing_movein_now property_date shared-line-bubble").get('data-date')
 
@@ -118,7 +126,12 @@ with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
         mapbox = soup.find('div', class_='mapbox')
         latitude = mapbox.find(id='map').get('data-latitude')
         longitude = mapbox.find(id='map').get('data-longitude')
+        # Not sure exactly what data_accuracy means in this context, 
+        # but it varies a lot by post, so may be useful later
         data_accuracy = mapbox.find(id='map').get('data-accuracy')
+
+        # some posts just have street address, others include nearby cross streets formatted as 
+        # 'street address near street'. We account for both 
         map_address = mapbox.find(class_="mapaddress").text
         if "near" in map_address:
             street_address = map_address.split('near')[0]
@@ -133,7 +146,7 @@ with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
             datetime.append(item.text)
         # first item in list will be posting datetime
         posted = datetime[0]
-        # any additional datetimes will be updates
+        # any additional datetimes will be updates 
         if len(datetime) > 1:
             updated = datetime[1]
         else:
@@ -142,7 +155,7 @@ with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
         # get body of post
         posting_body = soup.find('section', id="postingbody")
 
-        # get urls for images
+        # get urls for images if post has them
         images = []
         imgList = soup.find('div', id='thumbs')
         if imgList is not None:
@@ -152,7 +165,11 @@ with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
         else:
             images = "NA"
 
-        # this gets all the posting details that appear under the map
+        # this gets all the posting details that appear under the map. They look like tags, and are
+        # the output of the user selecting specific options when they make the post. This gathers them in 
+        # a 'specifications' list which we can search through. There are two instances of the class "attrgroup",
+        # the first is always just the bed/bath, sqft(if provided), and availability. The second has all 
+        # the other apt features. 
         attrgroup = soup.find_all('p', class_="attrgroup")
         specs = []
         for group in attrgroup:
@@ -160,39 +177,41 @@ with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
                 specs.append(item.text)
 
         # required information:
-        bedbath = find_strings(["BR"], specs)
+        bedbath = find_strings(["BR"], specs) 
+
+        # all possible laundry options from drop down menu include either 'w/d', or 'laundry' so searching
+        # for just those strings will return all possible matches
         laundry = find_strings(['w/d', 'laundry'], specs)
+        # same for parking: there are a number of options but all accounted for by these 3 strings. 
         parking = find_strings(['parking', 'garage', 'carport'], specs)
 
         # optional details
+        # possble housing options
         housing_type = ['apartment', 'condo', 'cottage', 'duplex', 'flat', 'house',
                         'in-law', 'loft', 'townhouse', 'manufactured', 'assisted', 'land']
         housing = find_strings(housing_type, specs)
-
         sqft = find_strings(['ft2'], specs)
 
+        # the group of features/specifications that are formatted name: details
+        # use our clean up function to makes things easier
         flooring = clean_if_exists(find_strings(['flooring'], specs))
-
         rent_period = clean_if_exists(find_strings(['rent'], specs))
-
         app_fee = clean_if_exists(find_strings(['application'], specs))
-
         broker_fee = clean_if_exists(find_strings(['broker'], specs))
 
+        # the group of features that we just want to know if 'yes' or 'unspecified'
         cats_ok = yes_if_exists(find_strings(['cats'], specs))
-
         dogs_ok = yes_if_exists(find_strings(['dogs'], specs))
-
         no_smoking = yes_if_exists(find_strings(['smoking'], specs))
-
         furnished = yes_if_exists(find_strings(['furnished'], specs))
-
         wheelchair_access = yes_if_exists(find_strings(["wheelchair"], specs))
-
         AC = yes_if_exists(find_strings(['air'], specs))
-
         EV_charging = yes_if_exists(find_strings(['EV'], specs))
 
+        # putting it all together in a dictionary. Some variable values get some additional cleaning or
+        # type conversions. It's a little bit repetitive as we could have created the values directly in
+        # the dictionary instead of defining all the variables above, but I think this is cleaner and 
+        # easier to see what is going on
         post_details = {
             "post_id": post_id,
             "title": soup.title.text,
@@ -225,9 +244,10 @@ with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
             "EV_charging": EV_charging,
             "posting_body": posting_body.text.replace("\n", " "),
             "images": images,
-            "url": soup.find('link', rel='canonical').get('href')
+            "url": url
         }
 
+        # write each post dictionary to row
         writer.writerow(post_details)
 
 csvfile.close()
