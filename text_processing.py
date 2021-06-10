@@ -88,8 +88,9 @@ with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
     writer.writeheader()
 
     # get file path for each html file in directory
-    for file in os.listdir('craigslist'):
-        file_path = os.path.join('craigslist', file)
+    directory = 'craigslist'
+    for file in os.listdir(directory):
+        file_path = os.path.join(directory, file)
         if not os.path.isfile(file_path):
             continue
 
