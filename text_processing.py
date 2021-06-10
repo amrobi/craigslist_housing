@@ -79,6 +79,7 @@ def yes_if_exists(s):
     else:
         return s
 
+
 # open csv
 with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
     # these were generated from the dictionary keys at the end of all this code and just copied up here
@@ -88,7 +89,8 @@ with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
     writer.writeheader()
 
     # get file path for each html file in directory
-    directory = 'craigslist'
+    directory = 'scraped_data'
+    counter = 0
     for file in os.listdir(directory):
         file_path = os.path.join(directory, file)
         if not os.path.isfile(file_path):
@@ -98,7 +100,7 @@ with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
         with open(file_path, encoding='utf-8') as html_file:
             soup = BeautifulSoup(html_file, 'lxml')
 
-        # get unique post ID 
+        # get unique post ID
         post_id = soup.find(string=re.compile("post id")).split(':')[1].strip()
 
         # get post url
@@ -108,8 +110,12 @@ with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
         title_text = soup.find('span', class_="postingtitletext")
 
         # find pricing info, extract text, strip whitespace, remove non-integer characters
-        price = title_text.find('span', class_="price").text.strip(
-        ).replace("$", "").replace(",", "")
+        pricing_info = title_text.find('span', class_="price")
+        if pricing_info is not None:
+            price = int(pricing_info.text.strip().replace(
+                "$", "").replace(",", ""))
+        else:
+            price = "NA"
 
         # if neighborhood is included (doesn't have to be), will be found here in the title text
         post_hood = title_text.find('small')
@@ -120,24 +126,35 @@ with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
 
         # get availability date
         # I choose to grab the actual date instead of the text 'available jul 1' for example
-        available = soup.find(
-            class_="housing_movein_now property_date shared-line-bubble").get('data-date')
+        availability = soup.find(
+            class_="housing_movein_now property_date shared-line-bubble")
+        if availability is not None:
+            available = availability.get('data-date')
+        else:
+            available = "NA"
 
         # get map and address info
         mapbox = soup.find('div', class_='mapbox')
-        latitude = mapbox.find(id='map').get('data-latitude')
-        longitude = mapbox.find(id='map').get('data-longitude')
-        # Not sure exactly what data_accuracy means in this context, 
-        # but it varies a lot by post, so may be useful later
-        data_accuracy = mapbox.find(id='map').get('data-accuracy')
+        if mapbox is not None:
+            latitude = float(mapbox.find(id='map').get('data-latitude'))
+            longitude = float(mapbox.find(id='map').get('data-longitude'))
+            # Not sure exactly what data_accuracy means in this context,
+            # but it varies a lot by post, so may be useful later
+            data_accuracy = int(mapbox.find(id='map').get('data-accuracy'))
 
-        # some posts just have street address, others include nearby cross streets formatted as 
-        # 'street address near street'. We account for both 
-        map_address = mapbox.find(class_="mapaddress").text
-        if "near" in map_address:
-            street_address = map_address.split('near')[0]
+        # some posts just have street address, others include nearby cross streets formatted as
+        # 'street address near street'. We account for both
+            address = mapbox.find(class_="mapaddress")
+            if address is not None:
+                map_address = address.text
+            else:
+                map_address = "NA"
+            if "near" in map_address:
+                street_address = map_address.split('near')[0]
+            else:
+                street_address = map_address
         else:
-            street_address = map_address
+            latitude = longitude = data_accuracy = map_address = street_address = "NA"
 
         # posting/updating dates and times
         posting_infos = soup.find('div', class_='postinginfos')
@@ -147,7 +164,7 @@ with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
             datetime.append(item.text)
         # first item in list will be posting datetime
         posted = datetime[0]
-        # any additional datetimes will be updates 
+        # any additional datetimes will be updates
         if len(datetime) > 1:
             updated = datetime[1]
         else:
@@ -167,10 +184,10 @@ with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
             images = "NA"
 
         # this gets all the posting details that appear under the map. They look like tags, and are
-        # the output of the user selecting specific options when they make the post. This gathers them in 
+        # the output of the user selecting specific options when they make the post. This gathers them in
         # a 'specifications' list which we can search through. There are two instances of the class "attrgroup",
-        # the first is always just the bed/bath, sqft(if provided), and availability. The second has all 
-        # the other apt features. 
+        # the first is always just the bed/bath, sqft(if provided), and availability. The second has all
+        # the other apt features.
         attrgroup = soup.find_all('p', class_="attrgroup")
         specs = []
         for group in attrgroup:
@@ -178,12 +195,12 @@ with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
                 specs.append(item.text)
 
         # required information:
-        bedbath = find_strings(["BR"], specs) 
+        bedbath = find_strings(["BR"], specs)
 
         # all possible laundry options from drop down menu include either 'w/d', or 'laundry' so searching
         # for just those strings will return all possible matches
         laundry = find_strings(['w/d', 'laundry'], specs)
-        # same for parking: there are a number of options but all accounted for by these 3 strings. 
+        # same for parking: there are a number of options but all accounted for by these 3 strings.
         parking = find_strings(['parking', 'garage', 'carport'], specs)
 
         # optional details
@@ -196,7 +213,7 @@ with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
         # the group of features/specifications that are formatted name: details
         # use our clean up function to makes things easier
         flooring = clean_if_exists(find_strings(['flooring'], specs))
-        rent_period = clean_if_exists(find_strings(['rent'], specs))
+        rent_period = clean_if_exists(find_strings(['rent period'], specs))
         app_fee = clean_if_exists(find_strings(['application'], specs))
         broker_fee = clean_if_exists(find_strings(['broker'], specs))
 
@@ -211,18 +228,18 @@ with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
 
         # putting it all together in a dictionary. Some variable values get some additional cleaning or
         # type conversions. It's a little bit repetitive as we could have created the values directly in
-        # the dictionary instead of defining all the variables above, but I think this is cleaner and 
+        # the dictionary instead of defining all the variables above, but I think this is cleaner and
         # easier to see what is going on
         post_details = {
             "post_id": post_id,
             "title": soup.title.text,
-            "price": int(price),
+            "price": price,
             "neighborhood": neighborhood,
             "map_address": map_address,
             "street_address": street_address,
-            "latitude": float(latitude),
-            "longitude": float(longitude),
-            "data_accuracy": int(data_accuracy),
+            "latitude": latitude,
+            "longitude": longitude,
+            "data_accuracy": data_accuracy,
             "posted": posted.strip(),
             "updated": updated.strip(),
             "available": available.strip(),
