@@ -89,7 +89,8 @@ with open('CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
     writer.writeheader()
 
     # get file path for each html file in directory
-    directory = 'scraped_data'
+    
+    directory = 'scraped_data' # change this to whatever the directory of files is called
     counter = 0
     for file in os.listdir(directory):
         file_path = os.path.join(directory, file)
