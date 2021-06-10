@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:site_name" content="craigslist">
+	<meta name="twitter:card" content="preview">
+	<meta property="og:title" content="Brand New Unit * W/d in Unit * AC * Pick Your Layout! - apts/housing...">
+	<meta name="description" content="Brand new 1 bedroom condo quality units available for rent starting at $1955. Pick your own layout and your own floor! Hardwood floors throughout, w/d in unit, central AC &amp;amp; gas forced heat,...">
+	<meta property="og:description" content="Brand new 1 bedroom condo quality units available for rent starting at $1955. Pick your own layout and your own floor! Hardwood floors throughout, w/d in unit, central AC &amp;amp; gas forced heat,...">
+	<meta property="og:image" content="https://images.craigslist.org/00505_knySTjVL56Pz_06c04E_600x450.jpg">
+	<meta property="og:url" content="https://chicago.craigslist.org/chc/apa/d/chicago-brand-new-unit-d-in-unit-ac/7330616186.html">
+	<meta property="og:type" content="article">
+	<meta name="robots" content="noarchive,nofollow,unavailable_after: 02-Jul-21 09:51:10 CDT">
+	<meta name="geo.position" content="41.945532;-87.653255">
+	<meta name="geo.placename" content="Chicago">
+	<meta name="geo.region" content="US-IL">
+	<title>Brand New Unit * W/d in Unit * AC * Pick Your Layout! - apts/housing...</title>
+	<link rel="canonical" href="https://chicago.craigslist.org/chc/apa/d/chicago-brand-new-unit-d-in-unit-ac/7330616186.html">
+
+<script type="application/ld+json" id="ld_breadcrumb_data" >
+    {"@context":"https://schema.org","itemListElement":[{"item":{"name":"chicago.craigslist.org","@id":"https://chicago.craigslist.org"},"position":1,"@type":"ListItem"},{"item":{"name":"city of chicago","@id":"https://chicago.craigslist.org/chc/"},"position":2,"@type":"ListItem"},{"item":{"name":"housing","@id":"https://chicago.craigslist.org/d/housing/search/chc/hhh"},"position":3,"@type":"ListItem"},{"item":{"name":"apartments / housing for rent","@id":"https://chicago.craigslist.org/d/apartments-housing-for-rent/search/chc/apa"},"position":4,"@type":"ListItem"},{"item":{"name":"Brand New Unit * W/d in Unit * AC * Pick Your Layout!","@id":"https://chicago.craigslist.org/chc/apa/d/chicago-brand-new-unit-d-in-unit-ac/7330616186.html"},"position":5,"@type":"ListItem"}],"@type":"BreadcrumbList"}
+</script>
+
+    <style type="text/css">
+        #no-js,
+        #unsupported-browser,
+        #unrecoverable-error
+        {
+            display:none;
+        }
+
+        #curtain {
+            display:none;
+            z-index: 10000;
+            position:absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            margin:0;
+            border:0;
+            background-color:white;
+        }
+
+        html.no-js #no-js,
+        body.unsupported-browser #unsupported-browser,
+        body.unrecoverable-error #unrecoverable-error
+        {
+            display:block;
+            z-index: 10001;
+            position:absolute;
+            top:0;
+            left:0;
+            right:0;
+            font-family: Sans-Serif;
+            text-align: center;
+            background-color: #FA8787;
+            padding: 1em;
+        }
+
+        body.loading #curtain {
+        	display:block;
+        }
+    </style>
+
+
+    
+     
+     <script src="https://www.craigslist.org/static/www/482fb2bf6f66c3eb204748eb0940a3022405f1f5.js"></script>
+     <script>
+         window.cl.init(
+             'https://www.craigslist.org/static/www/',
+             '',
+             'www',
+             'posting',
+             {
+countOfTotalText: "image {count} of {total}",
+imageConfig: {"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}},
+maptileBaseUrl: "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png",
+pID: 7330616186,
+repost_of: 7328581303
+},
+             0
+         );
+     </script>
+     
+</head>
+<body class="loading hide-on-global-error posting" >
+    
+    <iframe id="cl-local-storage" src="https://www.craigslist.org/static/www/localStorage-092e9f9e2f09450529e744902aa7cdb3a5cc868d.html" style="display:none;"></iframe>
+    
+    <div id="curtain"></div>
+
+    <noscript id="no-js"><div>
+    We've detected that JavaScript is not enabled in your browser.
+    <br><br>
+    You must enable JavaScript to use craigslist.
+</div></noscript>
+<div id="unsupported-browser">
+    We've detected you are using a browser that is missing critical features.
+    <br><br>
+    Please visit craigslist from a modern browser.
+</div>
+<div id="unrecoverable-error">
+    There was an error loading the page; please try to refresh the page.
+</div>
+
+
+    <section class="page-container">
+        <div class="bglogo"></div>
+<div class="tryapp">
+    try the craigslist app &raquo;
+    <a class="appstorebtn"
+    href="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+        Android
+    </a>
+    <a class="appstorebtn"
+    href="https://apps.apple.com/us/app/craigslist/id1336642410">
+        iOS
+    </a>
+</div>
+<header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb area">
+            <p>
+                    <a href="/">chicago</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb subarea">
+            <p>
+                    <a href="/chc/">city of chicago</a>
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb section">
+            <p>
+                    <a href="/search/chc/hhh">housing</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb category">
+            <p>
+                <a href="/search/chc/apa">apartments / housing for rent</a>
+
+            </p>
+        </li>
+
+</ul>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/chi">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number"></span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+            <form class="unfavform js-only" method="GET" action="/favorites">
+              <div class="to-banish-page">
+                <input type="hidden" class="unfaves" name="fl">
+                <input type="hidden" name="uf" value="1">
+                <a href="#" class="to-banish-page-link">
+                  <span class="icon icon-trash red" aria-hidden="true"></span>
+                  <span class="banished_count"></span>
+                  <span class="discards-label"> hidden</span>
+                </a>
+              </div>
+          </form>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+<h1 class="breadcrumbs">
+
+city of chicago            &gt;
+
+apartments / housing for rent</h1>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+        <section class="body">
+<header class="dateReplyBar">
+    <div class="prevnext-sec">
+        <div class="prevnext js-only">
+    <a class="prev">&#9664;  prev </a>
+    <a class="backup" title="back to search">&#9650;</a>
+    <a class="next"> next &#9654; </a>
+</div>
+
+    </div>
+
+    <div class="reply-button-row">
+    <div class="actions-combo">
+    <button role="button" class="reply-button js-only" data-href="/reply/chi/apa/7330616186/__SERVICE_ID__">
+      reply
+    </button>
+
+      <div class="reply-info js-only"></div>
+    <div class="fave-unfave action">
+        <div class="fave" role="button"  title="add to favorites">
+            <div class="icon icon-star" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+        <div class="unfave" role="button" title="remove from favorites">
+            <div class="icon icon-star fav" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+    </div>
+<div class="banish-unbanish action">
+  <div class="banish" data-url="https://post.craigslist.org/flag" role="button"  title="hide this posting">
+    <div class="icon icon-trash" aria-hidden="true"></div>
+    <div class="action-label">hide</div>
+  </div>
+  <div class="unbanish" data-url="https://post.craigslist.org/flag" role="button"  title="restore this posting">
+    <div class="icon icon-trash red" aria-hidden="true"></div>
+    <div class="action-label">unhide</div>
+  </div>
+</div>
+    <div class="flag-action action">
+        <div class="flag" data-url="https://post.craigslist.org/flag" role="button" title="flag as prohibited / spam / miscategorized" >
+            <div class="flagIcon" aria-hidden="true">
+                <span class="white-flag">&#9872;</span>
+                <span class="black-flag">&#9873;</span>
+            </div>
+            <div class="action-label">
+                flag
+            </div>
+        </div>
+        <div class="unflag">
+            <div class="flagIcon" aria-hidden="true">&#9873;</div>
+            <a class="action-label" href="https://www.craigslist.org/about/help/flags_and_community_moderation" title="thanks for flagging!">
+                flagged
+            </a>
+        </div>
+    </div>
+    </div>
+
+            <p id="display-date" class="postinginfo reveal">
+                    Posted
+                    <time class="date timeago" datetime="2021-06-02T09:51:10-0500">
+                        2021-06-02 09:51
+                    </time>
+            </p>
+
+            <p class="print-information print-contact">
+                Contact Information: <span class="print-email"></span> <span class="print-phone"></span>
+            </p>
+            <a href="#" id="printme">print</a>
+
+    </div>
+
+</header>
+
+<h1 class="postingtitle">
+    <span class="postingtitletext">
+<span class="price">$1,955</span> <span class="housing">/ 1br - </span><span id="titletextonly">Brand New Unit * W/d in Unit * AC * Pick Your Layout!</span><small> (Lakeview/Wrigleyville)</small>    </span>
+</h1>
+<section class="userbody">
+    <figure class="iw multiimage">
+    <div class="gallery">
+        <span class="slider-back arrow">&lt;</span>
+        <span class="slider-info">image 1 of 8</span>
+        <span class="slider-forward arrow">&gt;</span>
+
+        <div class="swipe">
+            <div class="swipe-wrap">
+                <div id="1_image_knySTjVL56Pz_06c04E" data-imgid="knySTjVL56Pz_06c04E" class="slide first visible">
+                    <img src="https://images.craigslist.org/00505_knySTjVL56Pz_06c04E_600x450.jpg" title="1" alt="1">
+                </div>
+                <div id="2_image_kIOqtFdjYrzz_08g06h" data-imgid="kIOqtFdjYrzz_08g06h" class="slide">
+                </div>
+                <div id="3_image_8RhUBB0tBKsz_06c04E" data-imgid="8RhUBB0tBKsz_06c04E" class="slide">
+                </div>
+                <div id="4_image_2f5WFtmPfjBz_06c04E" data-imgid="2f5WFtmPfjBz_06c04E" class="slide">
+                </div>
+                <div id="5_image_dAAEl7KvteAz_06c04E" data-imgid="dAAEl7KvteAz_06c04E" class="slide">
+                </div>
+                <div id="6_image_kgQww67bthwz_06c04E" data-imgid="kgQww67bthwz_06c04E" class="slide">
+                </div>
+                <div id="7_image_b2lWtgqwIDTz_06c04E" data-imgid="b2lWtgqwIDTz_06c04E" class="slide">
+                </div>
+                <div id="8_image_aL66cZgkRsAz_06c04E" data-imgid="aL66cZgkRsAz_06c04E" class="slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thumbs"><a id="1_thumb_knySTjVL56Pz_06c04E" class="thumb" data-imgid="knySTjVL56Pz_06c04E" href="https://images.craigslist.org/00505_knySTjVL56Pz_06c04E_600x450.jpg" title="1"><img src="https://images.craigslist.org/00505_knySTjVL56Pz_06c04E_50x50c.jpg" class="selected" alt="1"></a><a id="2_thumb_kIOqtFdjYrzz_08g06h" class="thumb" data-imgid="kIOqtFdjYrzz_08g06h" href="https://images.craigslist.org/00000_kIOqtFdjYrzz_08g06h_600x450.jpg" title="2"><img src="https://images.craigslist.org/00000_kIOqtFdjYrzz_08g06h_50x50c.jpg" alt="2"></a><a id="3_thumb_8RhUBB0tBKsz_06c04E" class="thumb" data-imgid="8RhUBB0tBKsz_06c04E" href="https://images.craigslist.org/00o0o_8RhUBB0tBKsz_06c04E_600x450.jpg" title="3"><img src="https://images.craigslist.org/00o0o_8RhUBB0tBKsz_06c04E_50x50c.jpg" alt="3"></a><a id="4_thumb_2f5WFtmPfjBz_06c04E" class="thumb" data-imgid="2f5WFtmPfjBz_06c04E" href="https://images.craigslist.org/00S0S_2f5WFtmPfjBz_06c04E_600x450.jpg" title="4"><img src="https://images.craigslist.org/00S0S_2f5WFtmPfjBz_06c04E_50x50c.jpg" alt="4"></a><a id="5_thumb_dAAEl7KvteAz_06c04E" class="thumb" data-imgid="dAAEl7KvteAz_06c04E" href="https://images.craigslist.org/00l0l_dAAEl7KvteAz_06c04E_600x450.jpg" title="5"><img src="https://images.craigslist.org/00l0l_dAAEl7KvteAz_06c04E_50x50c.jpg" alt="5"></a><a id="6_thumb_kgQww67bthwz_06c04E" class="thumb" data-imgid="kgQww67bthwz_06c04E" href="https://images.craigslist.org/01313_kgQww67bthwz_06c04E_600x450.jpg" title="6"><img src="https://images.craigslist.org/01313_kgQww67bthwz_06c04E_50x50c.jpg" alt="6"></a><a id="7_thumb_b2lWtgqwIDTz_06c04E" class="thumb" data-imgid="b2lWtgqwIDTz_06c04E" href="https://images.craigslist.org/01616_b2lWtgqwIDTz_06c04E_600x450.jpg" title="7"><img src="https://images.craigslist.org/01616_b2lWtgqwIDTz_06c04E_50x50c.jpg" alt="7"></a><a id="8_thumb_aL66cZgkRsAz_06c04E" class="thumb" data-imgid="aL66cZgkRsAz_06c04E" href="https://images.craigslist.org/00N0N_aL66cZgkRsAz_06c04E_600x450.jpg" title="8"><img src="https://images.craigslist.org/00N0N_aL66cZgkRsAz_06c04E_50x50c.jpg" alt="8"></a></div>
+    
+        <script type="text/javascript"><!--
+var imgList = [{"shortid":"knySTjVL56Pz_06c04E","url":"https://images.craigslist.org/00505_knySTjVL56Pz_06c04E_600x450.jpg","thumb":"https://images.craigslist.org/00505_knySTjVL56Pz_06c04E_50x50c.jpg","imgid":"3:00505_knySTjVL56Pz_06c04E"},{"shortid":"kIOqtFdjYrzz_08g06h","url":"https://images.craigslist.org/00000_kIOqtFdjYrzz_08g06h_600x450.jpg","thumb":"https://images.craigslist.org/00000_kIOqtFdjYrzz_08g06h_50x50c.jpg","imgid":"3:00000_kIOqtFdjYrzz_08g06h"},{"shortid":"8RhUBB0tBKsz_06c04E","url":"https://images.craigslist.org/00o0o_8RhUBB0tBKsz_06c04E_600x450.jpg","thumb":"https://images.craigslist.org/00o0o_8RhUBB0tBKsz_06c04E_50x50c.jpg","imgid":"3:00o0o_8RhUBB0tBKsz_06c04E"},{"shortid":"2f5WFtmPfjBz_06c04E","url":"https://images.craigslist.org/00S0S_2f5WFtmPfjBz_06c04E_600x450.jpg","thumb":"https://images.craigslist.org/00S0S_2f5WFtmPfjBz_06c04E_50x50c.jpg","imgid":"3:00S0S_2f5WFtmPfjBz_06c04E"},{"shortid":"dAAEl7KvteAz_06c04E","url":"https://images.craigslist.org/00l0l_dAAEl7KvteAz_06c04E_600x450.jpg","thumb":"https://images.craigslist.org/00l0l_dAAEl7KvteAz_06c04E_50x50c.jpg","imgid":"3:00l0l_dAAEl7KvteAz_06c04E"},{"shortid":"kgQww67bthwz_06c04E","url":"https://images.craigslist.org/01313_kgQww67bthwz_06c04E_600x450.jpg","thumb":"https://images.craigslist.org/01313_kgQww67bthwz_06c04E_50x50c.jpg","imgid":"3:01313_kgQww67bthwz_06c04E"},{"shortid":"b2lWtgqwIDTz_06c04E","url":"https://images.craigslist.org/01616_b2lWtgqwIDTz_06c04E_600x450.jpg","thumb":"https://images.craigslist.org/01616_b2lWtgqwIDTz_06c04E_50x50c.jpg","imgid":"3:01616_b2lWtgqwIDTz_06c04E"},{"shortid":"aL66cZgkRsAz_06c04E","url":"https://images.craigslist.org/00N0N_aL66cZgkRsAz_06c04E_600x450.jpg","thumb":"https://images.craigslist.org/00N0N_aL66cZgkRsAz_06c04E_50x50c.jpg","imgid":"3:00N0N_aL66cZgkRsAz_06c04E"}];
+--></script>
+    
+</figure>
+
+
+    <div class="mapAndAttrs">
+<div class="mapbox">
+    <div id="map" class="viewposting" data-latitude="41.945532" data-longitude="-87.653255" data-accuracy="15"></div>
+    <div class="mapaddress">Wilton near Cornelia</div>
+    
+    <p class="mapaddress">
+        <small>
+            (<a target="_blank" href="https://www.google.com/maps/search/41.945532,-87.653255">google map</a>)
+        </small>
+    </p>
+    
+</div>
+
+    <p class="attrgroup">
+
+
+
+            <span class="shared-line-bubble"><b>1BR</b> / <b>1Ba</b></span>
+
+    </p>
+    <p class="attrgroup">
+
+
+
+            <span>air conditioning</span>
+            <br>
+
+
+
+
+            <span>cats are OK - purrr</span>
+            <br>
+
+
+
+
+            <span>dogs are OK - wooof</span>
+            <br>
+
+
+
+
+            <span>flooring: <b>wood</b></span>
+            <br>
+
+
+
+
+            <span>furnished</span>
+            <br>
+
+
+
+
+            <span>apartment</span>
+            <br>
+
+
+
+
+            <span>w/d in unit</span>
+            <br>
+
+
+
+
+            <span>street parking</span>
+            <br>
+
+    </p>
+    </div>
+
+    <section id="postingbody">
+        <div class="print-information print-qrcode-container">
+            <p class="print-qrcode-label">QR Code Link to This Post</p>
+            <div class="print-qrcode" data-location="https://chicago.craigslist.org/chc/apa/d/chicago-brand-new-unit-d-in-unit-ac/7330616186.html"></div>
+        </div>
+Brand new 1 bedroom condo quality units available for rent starting at $1955. Pick your own layout and your own floor! Hardwood floors throughout, w/d in unit, central AC &amp; gas forced heat, small pet friendly, FREE wi-fi, GORGEOUS kitchens with dishwasher &amp; microwave, gorgeous bathrooms with showers. Awesome location!! Just seconds to Wrigley Field, bars, restaurants, and shopping. Units are located in walk building. Permit street parking only. Units will be available for move in for July 1.<br>
+<br>
+For more info, contact Alexia at 773.551.7913. Berkshire Hathaway<br>
+    </section>
+
+<ul class="notices">
+            <li>do NOT contact me with unsolicited services or offers</li>
+</ul>
+
+    <div class="postinginfos">
+            <p class="postinginfo">post id: 7330616186</p>
+                <p class="postinginfo reveal">posted: <time class="date timeago" datetime="2021-06-02T09:51:10-0500">2021-06-02 09:51</time></p>
+
+
+
+        <p class="postinginfo" id="share-button-container"></p>
+
+        <p class="postinginfo">
+              <a class="bestof-link" href="https://post.craigslist.org/flag" title="nominate for best-of-CL">
+                <span class="bestof-icon">&hearts; </span><span class="bestof-text">best of</span>
+              </a> <sup>[<a href="https://www.craigslist.org/about/best-of-craigslist">?</a>]</sup>
+        </p>
+        
+    </div>
+
+    <div class="print-information print-pics"></div>
+
+</section>
+
+<div class="psa-box">
+</div>
+
+<div class="avoid-scams">
+<aside class="tsb">
+    Please flag
+    <a href="https://www.craigslist.org/about/FHA">discriminatory housing ads</a> 
+</aside>
+
+<aside class="tsb">
+    <a href="https://www.craigslist.org/about/scams">Avoid scams, deal locally!</a>
+
+    <em>DO NOT wire funds (e.g. Western Union)</em>, or buy/rent sight unseen
+</aside>
+</div>
+
+        </section>
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2021 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a><sup class="neu">new</sup></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li class="fsel desktop linklike" data-mode="mobile">mobile</li>
+        <li class="fsel mobile linklike" data-mode="regular">desktop</li>
+    </ul>
+</footer>
+    </section>
+
+</body>
+</html>

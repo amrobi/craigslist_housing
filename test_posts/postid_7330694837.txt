@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:site_name" content="craigslist">
+	<meta name="twitter:card" content="preview">
+	<meta property="og:title" content="Beautiful Two Bedroom Units @ 1644 W. Sherwin - apts/housing for...">
+	<meta name="description" content="Are you looking for a large, sunny apartment in Rogers Park? 1644 W. Sherwin Ave. offers just that! These great apartments are located within a few blocks of the beach and only feet from Touhy Park....">
+	<meta property="og:description" content="Are you looking for a large, sunny apartment in Rogers Park? 1644 W. Sherwin Ave. offers just that! These great apartments are located within a few blocks of the beach and only feet from Touhy Park....">
+	<meta property="og:image" content="https://images.craigslist.org/00U0U_deWnmaNcSwFz_0wg0lv_600x450.jpg">
+	<meta property="og:url" content="https://chicago.craigslist.org/chc/apa/d/chicago-beautiful-two-bedroom-units/7330694837.html">
+	<meta property="og:type" content="article">
+	<meta name="robots" content="noarchive,nofollow,unavailable_after: 02-Jul-21 11:58:19 CDT">
+	<meta name="geo.position" content="42.015029;-87.671600">
+	<meta name="geo.placename" content="Chicago">
+	<meta name="geo.region" content="US-IL">
+	<title>Beautiful Two Bedroom Units @ 1644 W. Sherwin - apts/housing for...</title>
+	<link rel="canonical" href="https://chicago.craigslist.org/chc/apa/d/chicago-beautiful-two-bedroom-units/7330694837.html">
+
+<script type="application/ld+json" id="ld_breadcrumb_data" >
+    {"@context":"https://schema.org","itemListElement":[{"item":{"name":"chicago.craigslist.org","@id":"https://chicago.craigslist.org"},"position":1,"@type":"ListItem"},{"item":{"name":"city of chicago","@id":"https://chicago.craigslist.org/chc/"},"position":2,"@type":"ListItem"},{"item":{"name":"housing","@id":"https://chicago.craigslist.org/d/housing/search/chc/hhh"},"position":3,"@type":"ListItem"},{"item":{"name":"apartments / housing for rent","@id":"https://chicago.craigslist.org/d/apartments-housing-for-rent/search/chc/apa"},"position":4,"@type":"ListItem"},{"item":{"name":"Beautiful Two   Bedroom Units @ 1644 W. Sherwin","@id":"https://chicago.craigslist.org/chc/apa/d/chicago-beautiful-two-bedroom-units/7330694837.html"},"position":5,"@type":"ListItem"}],"@type":"BreadcrumbList"}
+</script>
+
+    <style type="text/css">
+        #no-js,
+        #unsupported-browser,
+        #unrecoverable-error
+        {
+            display:none;
+        }
+
+        #curtain {
+            display:none;
+            z-index: 10000;
+            position:absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            margin:0;
+            border:0;
+            background-color:white;
+        }
+
+        html.no-js #no-js,
+        body.unsupported-browser #unsupported-browser,
+        body.unrecoverable-error #unrecoverable-error
+        {
+            display:block;
+            z-index: 10001;
+            position:absolute;
+            top:0;
+            left:0;
+            right:0;
+            font-family: Sans-Serif;
+            text-align: center;
+            background-color: #FA8787;
+            padding: 1em;
+        }
+
+        body.loading #curtain {
+        	display:block;
+        }
+    </style>
+
+
+    
+     
+     <script src="https://www.craigslist.org/static/www/482fb2bf6f66c3eb204748eb0940a3022405f1f5.js"></script>
+     <script>
+         window.cl.init(
+             'https://www.craigslist.org/static/www/',
+             '',
+             'www',
+             'posting',
+             {
+countOfTotalText: "image {count} of {total}",
+imageConfig: {"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}},
+maptileBaseUrl: "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png",
+pID: 7330694837,
+repost_of: 4427111112
+},
+             0
+         );
+     </script>
+     
+</head>
+<body class="loading hide-on-global-error posting" >
+    
+    <iframe id="cl-local-storage" src="https://www.craigslist.org/static/www/localStorage-092e9f9e2f09450529e744902aa7cdb3a5cc868d.html" style="display:none;"></iframe>
+    
+    <div id="curtain"></div>
+
+    <noscript id="no-js"><div>
+    We've detected that JavaScript is not enabled in your browser.
+    <br><br>
+    You must enable JavaScript to use craigslist.
+</div></noscript>
+<div id="unsupported-browser">
+    We've detected you are using a browser that is missing critical features.
+    <br><br>
+    Please visit craigslist from a modern browser.
+</div>
+<div id="unrecoverable-error">
+    There was an error loading the page; please try to refresh the page.
+</div>
+
+
+    <section class="page-container">
+        <div class="bglogo"></div>
+<div class="tryapp">
+    try the craigslist app &raquo;
+    <a class="appstorebtn"
+    href="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+        Android
+    </a>
+    <a class="appstorebtn"
+    href="https://apps.apple.com/us/app/craigslist/id1336642410">
+        iOS
+    </a>
+</div>
+<header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb area">
+            <p>
+                    <a href="/">chicago</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb subarea">
+            <p>
+                    <a href="/chc/">city of chicago</a>
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb section">
+            <p>
+                    <a href="/search/chc/hhh">housing</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb category">
+            <p>
+                <a href="/search/chc/apa">apartments / housing for rent</a>
+
+            </p>
+        </li>
+
+</ul>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/chi">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number"></span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+            <form class="unfavform js-only" method="GET" action="/favorites">
+              <div class="to-banish-page">
+                <input type="hidden" class="unfaves" name="fl">
+                <input type="hidden" name="uf" value="1">
+                <a href="#" class="to-banish-page-link">
+                  <span class="icon icon-trash red" aria-hidden="true"></span>
+                  <span class="banished_count"></span>
+                  <span class="discards-label"> hidden</span>
+                </a>
+              </div>
+          </form>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+<h1 class="breadcrumbs">
+
+city of chicago            &gt;
+
+apartments / housing for rent</h1>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+        <section class="body">
+<header class="dateReplyBar">
+    <div class="prevnext-sec">
+        <div class="prevnext js-only">
+    <a class="prev">&#9664;  prev </a>
+    <a class="backup" title="back to search">&#9650;</a>
+    <a class="next"> next &#9654; </a>
+</div>
+
+    </div>
+
+    <div class="reply-button-row">
+    <div class="actions-combo">
+    <button role="button" class="reply-button js-only" data-href="/reply/chi/apa/7330694837/__SERVICE_ID__">
+      reply
+    </button>
+
+      <div class="reply-info js-only"></div>
+    <div class="fave-unfave action">
+        <div class="fave" role="button"  title="add to favorites">
+            <div class="icon icon-star" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+        <div class="unfave" role="button" title="remove from favorites">
+            <div class="icon icon-star fav" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+    </div>
+<div class="banish-unbanish action">
+  <div class="banish" data-url="https://post.craigslist.org/flag" role="button"  title="hide this posting">
+    <div class="icon icon-trash" aria-hidden="true"></div>
+    <div class="action-label">hide</div>
+  </div>
+  <div class="unbanish" data-url="https://post.craigslist.org/flag" role="button"  title="restore this posting">
+    <div class="icon icon-trash red" aria-hidden="true"></div>
+    <div class="action-label">unhide</div>
+  </div>
+</div>
+    <div class="flag-action action">
+        <div class="flag" data-url="https://post.craigslist.org/flag" role="button" title="flag as prohibited / spam / miscategorized" >
+            <div class="flagIcon" aria-hidden="true">
+                <span class="white-flag">&#9872;</span>
+                <span class="black-flag">&#9873;</span>
+            </div>
+            <div class="action-label">
+                flag
+            </div>
+        </div>
+        <div class="unflag">
+            <div class="flagIcon" aria-hidden="true">&#9873;</div>
+            <a class="action-label" href="https://www.craigslist.org/about/help/flags_and_community_moderation" title="thanks for flagging!">
+                flagged
+            </a>
+        </div>
+    </div>
+    </div>
+
+            <p id="display-date" class="postinginfo reveal">
+                    Posted
+                    <time class="date timeago" datetime="2021-06-02T11:58:19-0500">
+                        2021-06-02 11:58
+                    </time>
+            </p>
+
+            <p class="print-information print-contact">
+                Contact Information: <span class="print-email"></span> <span class="print-phone"></span>
+            </p>
+            <a href="#" id="printme">print</a>
+
+    </div>
+
+</header>
+
+<h1 class="postingtitle">
+    <span class="postingtitletext">
+<span class="price">$1,380</span> <span class="housing">/ 2br - </span><span id="titletextonly">Beautiful Two   Bedroom Units @ 1644 W. Sherwin</span><small> (East Rogers Park)</small>    </span>
+</h1>
+<section class="userbody">
+    <figure class="iw multiimage">
+    <div class="gallery">
+        <span class="slider-back arrow">&lt;</span>
+        <span class="slider-info">image 1 of 10</span>
+        <span class="slider-forward arrow">&gt;</span>
+
+        <div class="swipe">
+            <div class="swipe-wrap">
+                <div id="1_image_deWnmaNcSwFz_0wg0lv" data-imgid="deWnmaNcSwFz_0wg0lv" class="slide first visible">
+                    <img src="https://images.craigslist.org/00U0U_deWnmaNcSwFz_0wg0lv_600x450.jpg" title="1" alt="1">
+                </div>
+                <div id="2_image_dJMHmmG4LkWz_0zm0rc" data-imgid="dJMHmmG4LkWz_0zm0rc" class="slide">
+                </div>
+                <div id="3_image_4PFn7GBRcjWz_0zm0rc" data-imgid="4PFn7GBRcjWz_0zm0rc" class="slide">
+                </div>
+                <div id="4_image_deQdw6z2WCbz_0wg0lv" data-imgid="deQdw6z2WCbz_0wg0lv" class="slide">
+                </div>
+                <div id="5_image_2tXGUm6okY5z_0wg0lv" data-imgid="2tXGUm6okY5z_0wg0lv" class="slide">
+                </div>
+                <div id="6_image_azKe4zfTwnGz_0wg0lv" data-imgid="azKe4zfTwnGz_0wg0lv" class="slide">
+                </div>
+                <div id="7_image_wabyIiOhMKz_0wg0lv" data-imgid="wabyIiOhMKz_0wg0lv" class="slide">
+                </div>
+                <div id="8_image_6DXi6bgkjkNz_0wg0lv" data-imgid="6DXi6bgkjkNz_0wg0lv" class="slide">
+                </div>
+                <div id="9_image_cjEnl507B0Bz_0wg0lv" data-imgid="cjEnl507B0Bz_0wg0lv" class="slide">
+                </div>
+                <div id="10_image_iBNhjmt3aIUz_0wg0lv" data-imgid="iBNhjmt3aIUz_0wg0lv" class="slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thumbs"><a id="1_thumb_deWnmaNcSwFz_0wg0lv" class="thumb" data-imgid="deWnmaNcSwFz_0wg0lv" href="https://images.craigslist.org/00U0U_deWnmaNcSwFz_0wg0lv_600x450.jpg" title="1"><img src="https://images.craigslist.org/00U0U_deWnmaNcSwFz_0wg0lv_50x50c.jpg" class="selected" alt="1"></a><a id="2_thumb_dJMHmmG4LkWz_0zm0rc" class="thumb" data-imgid="dJMHmmG4LkWz_0zm0rc" href="https://images.craigslist.org/00o0o_dJMHmmG4LkWz_0zm0rc_600x450.jpg" title="2"><img src="https://images.craigslist.org/00o0o_dJMHmmG4LkWz_0zm0rc_50x50c.jpg" alt="2"></a><a id="3_thumb_4PFn7GBRcjWz_0zm0rc" class="thumb" data-imgid="4PFn7GBRcjWz_0zm0rc" href="https://images.craigslist.org/00l0l_4PFn7GBRcjWz_0zm0rc_600x450.jpg" title="3"><img src="https://images.craigslist.org/00l0l_4PFn7GBRcjWz_0zm0rc_50x50c.jpg" alt="3"></a><a id="4_thumb_deQdw6z2WCbz_0wg0lv" class="thumb" data-imgid="deQdw6z2WCbz_0wg0lv" href="https://images.craigslist.org/00101_deQdw6z2WCbz_0wg0lv_600x450.jpg" title="4"><img src="https://images.craigslist.org/00101_deQdw6z2WCbz_0wg0lv_50x50c.jpg" alt="4"></a><a id="5_thumb_2tXGUm6okY5z_0wg0lv" class="thumb" data-imgid="2tXGUm6okY5z_0wg0lv" href="https://images.craigslist.org/00k0k_2tXGUm6okY5z_0wg0lv_600x450.jpg" title="5"><img src="https://images.craigslist.org/00k0k_2tXGUm6okY5z_0wg0lv_50x50c.jpg" alt="5"></a><a id="6_thumb_azKe4zfTwnGz_0wg0lv" class="thumb" data-imgid="azKe4zfTwnGz_0wg0lv" href="https://images.craigslist.org/00f0f_azKe4zfTwnGz_0wg0lv_600x450.jpg" title="6"><img src="https://images.craigslist.org/00f0f_azKe4zfTwnGz_0wg0lv_50x50c.jpg" alt="6"></a><a id="7_thumb_wabyIiOhMKz_0wg0lv" class="thumb" data-imgid="wabyIiOhMKz_0wg0lv" href="https://images.craigslist.org/00K0K_wabyIiOhMKz_0wg0lv_600x450.jpg" title="7"><img src="https://images.craigslist.org/00K0K_wabyIiOhMKz_0wg0lv_50x50c.jpg" alt="7"></a><a id="8_thumb_6DXi6bgkjkNz_0wg0lv" class="thumb" data-imgid="6DXi6bgkjkNz_0wg0lv" href="https://images.craigslist.org/00v0v_6DXi6bgkjkNz_0wg0lv_600x450.jpg" title="8"><img src="https://images.craigslist.org/00v0v_6DXi6bgkjkNz_0wg0lv_50x50c.jpg" alt="8"></a><a id="9_thumb_cjEnl507B0Bz_0wg0lv" class="thumb" data-imgid="cjEnl507B0Bz_0wg0lv" href="https://images.craigslist.org/00S0S_cjEnl507B0Bz_0wg0lv_600x450.jpg" title="9"><img src="https://images.craigslist.org/00S0S_cjEnl507B0Bz_0wg0lv_50x50c.jpg" alt="9"></a><a id="10_thumb_iBNhjmt3aIUz_0wg0lv" class="thumb" data-imgid="iBNhjmt3aIUz_0wg0lv" href="https://images.craigslist.org/00H0H_iBNhjmt3aIUz_0wg0lv_600x450.jpg" title="10"><img src="https://images.craigslist.org/00H0H_iBNhjmt3aIUz_0wg0lv_50x50c.jpg" alt="10"></a></div>
+    
+        <script type="text/javascript"><!--
+var imgList = [{"shortid":"deWnmaNcSwFz_0wg0lv","url":"https://images.craigslist.org/00U0U_deWnmaNcSwFz_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00U0U_deWnmaNcSwFz_0wg0lv_50x50c.jpg","imgid":"3:00U0U_deWnmaNcSwFz_0wg0lv"},{"shortid":"dJMHmmG4LkWz_0zm0rc","url":"https://images.craigslist.org/00o0o_dJMHmmG4LkWz_0zm0rc_600x450.jpg","thumb":"https://images.craigslist.org/00o0o_dJMHmmG4LkWz_0zm0rc_50x50c.jpg","imgid":"3:00o0o_dJMHmmG4LkWz_0zm0rc"},{"shortid":"4PFn7GBRcjWz_0zm0rc","url":"https://images.craigslist.org/00l0l_4PFn7GBRcjWz_0zm0rc_600x450.jpg","thumb":"https://images.craigslist.org/00l0l_4PFn7GBRcjWz_0zm0rc_50x50c.jpg","imgid":"3:00l0l_4PFn7GBRcjWz_0zm0rc"},{"shortid":"deQdw6z2WCbz_0wg0lv","url":"https://images.craigslist.org/00101_deQdw6z2WCbz_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00101_deQdw6z2WCbz_0wg0lv_50x50c.jpg","imgid":"3:00101_deQdw6z2WCbz_0wg0lv"},{"shortid":"2tXGUm6okY5z_0wg0lv","url":"https://images.craigslist.org/00k0k_2tXGUm6okY5z_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00k0k_2tXGUm6okY5z_0wg0lv_50x50c.jpg","imgid":"3:00k0k_2tXGUm6okY5z_0wg0lv"},{"shortid":"azKe4zfTwnGz_0wg0lv","url":"https://images.craigslist.org/00f0f_azKe4zfTwnGz_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00f0f_azKe4zfTwnGz_0wg0lv_50x50c.jpg","imgid":"3:00f0f_azKe4zfTwnGz_0wg0lv"},{"shortid":"wabyIiOhMKz_0wg0lv","url":"https://images.craigslist.org/00K0K_wabyIiOhMKz_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00K0K_wabyIiOhMKz_0wg0lv_50x50c.jpg","imgid":"3:00K0K_wabyIiOhMKz_0wg0lv"},{"shortid":"6DXi6bgkjkNz_0wg0lv","url":"https://images.craigslist.org/00v0v_6DXi6bgkjkNz_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00v0v_6DXi6bgkjkNz_0wg0lv_50x50c.jpg","imgid":"3:00v0v_6DXi6bgkjkNz_0wg0lv"},{"shortid":"cjEnl507B0Bz_0wg0lv","url":"https://images.craigslist.org/00S0S_cjEnl507B0Bz_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00S0S_cjEnl507B0Bz_0wg0lv_50x50c.jpg","imgid":"3:00S0S_cjEnl507B0Bz_0wg0lv"},{"shortid":"iBNhjmt3aIUz_0wg0lv","url":"https://images.craigslist.org/00H0H_iBNhjmt3aIUz_0wg0lv_600x450.jpg","thumb":"https://images.craigslist.org/00H0H_iBNhjmt3aIUz_0wg0lv_50x50c.jpg","imgid":"3:00H0H_iBNhjmt3aIUz_0wg0lv"}];
+--></script>
+    
+</figure>
+
+
+    <div class="mapAndAttrs">
+<div class="mapbox">
+    <div id="map" class="viewposting" data-latitude="42.015029" data-longitude="-87.671600" data-accuracy="10"></div>
+    <div class="mapaddress">1644 Sherwin</div>
+    
+    <p class="mapaddress">
+        <small>
+            (<a target="_blank" href="https://www.google.com/maps/search/42.015029,-87.671600">google map</a>)
+        </small>
+    </p>
+    
+</div>
+
+    <p class="attrgroup">
+
+
+
+            <span class="shared-line-bubble"><b>2BR</b> / <b>1Ba</b></span>
+
+    </p>
+    <p class="attrgroup">
+
+
+
+            <span>cats are OK - purrr</span>
+            <br>
+
+
+
+
+            <span>apartment</span>
+            <br>
+
+
+
+
+            <span>laundry on site</span>
+            <br>
+
+
+
+
+            <span>off-street parking</span>
+            <br>
+
+    </p>
+    </div>
+
+    <section id="postingbody">
+        <div class="print-information print-qrcode-container">
+            <p class="print-qrcode-label">QR Code Link to This Post</p>
+            <div class="print-qrcode" data-location="https://chicago.craigslist.org/chc/apa/d/chicago-beautiful-two-bedroom-units/7330694837.html"></div>
+        </div>
+Are you looking for a large, sunny apartment in Rogers Park? 1644 W. Sherwin Ave. offers just that! These great apartments are located within a few blocks of the beach and only feet from Touhy Park. Each unit is newly rehabbed and boasts new windows, stainless steel appliances (including a dishwasher), ceramic tile bathrooms, and hardwood floors. Large closets and FREE HEAT complete the package. Located just two blocks from the Red Line, all of Chicago is easily accessible. Great nightlife and a very diverse epicurean scene are also found in the neighborhood. Off street parking is available.<br>
+<br>
+<br>
+**Special Promotion - First Time Residents Only - One Month Free Rent AND NO MOVE IN FEE<br>
+with Lease signed by June 15, 2021**<br>
+<br>
+<br>
+<br>
+Two  Bedroom Unit........... Available Now....................................Rent starting at $1,380.00/Per Month<br>
+Two  Bedroom Unit........... Available August 1,  2021..................Rent starting at $1,350.00/Per Month<br>
+<br>
+<br>
+<br>
+ To Schedule an appointment call  Bibiana  at 773 345 7761 or the office 773 989 8000<br>
+***Pictures shown may not be of actual unit available***<br>
+Don't miss out, make your appointment today!<br>
+<br>
+<br>
+<br>
+                                              <br>
+                                                <br>
+<br>
+RENTAL FEATURES:                        <br>
+   <br>
+- Stainless Steel Appliances                                           <br>
+- Dishwasher<br>
+- Ceiling fans<br>
+- Ceramic tile bath<br>
+- Large Closets<br>
+- Hardwood floors in dining/ Living area<br>
+-Carpeted Bedrooms<br>
+-Laundry Room Onsite<br>
+<br>
+<br>
+COMMUNITY FEATURES:<br>
+- Controlled Access                                        <br>
+<br>
+LEASE TERMS:<br>
+                                        <br>
+*12 Month Lease<br>
+**No Security Deposit<br>
+***$400.00 Move in Fee <br>
+****$75.00 Credit/ Background Check Fee (per Person Over the Age Of 18)<br>
+*****NO DOGS<br>
+                                      <br>
+<br>
+                             <br>
+                         <br>
+Managed By:<br>
+Realty &amp; Mortgage Co.<br>
+1509 W. Berwyn Ave., #200<br>
+Chicago, IL 60640<br>
+(P) 773-989-8000<br>
+(F) 773-989-6979<br>
+<br>
+<br>
+Equal Opportunity Housing    </section>
+
+<ul class="notices">
+            <li>do NOT contact me with unsolicited services or offers</li>
+</ul>
+
+    <div class="postinginfos">
+            <p class="postinginfo">post id: 7330694837</p>
+                <p class="postinginfo reveal">posted: <time class="date timeago" datetime="2021-06-02T11:58:19-0500">2021-06-02 11:58</time></p>
+
+
+
+        <p class="postinginfo" id="share-button-container"></p>
+
+        <p class="postinginfo">
+              <a class="bestof-link" href="https://post.craigslist.org/flag" title="nominate for best-of-CL">
+                <span class="bestof-icon">&hearts; </span><span class="bestof-text">best of</span>
+              </a> <sup>[<a href="https://www.craigslist.org/about/best-of-craigslist">?</a>]</sup>
+        </p>
+        
+    </div>
+
+    <div class="print-information print-pics"></div>
+
+</section>
+
+<div class="psa-box">
+</div>
+
+<div class="avoid-scams">
+<aside class="tsb">
+    Please flag
+    <a href="https://www.craigslist.org/about/FHA">discriminatory housing ads</a> 
+</aside>
+
+<aside class="tsb">
+    <a href="https://www.craigslist.org/about/scams">Avoid scams, deal locally!</a>
+
+    <em>DO NOT wire funds (e.g. Western Union)</em>, or buy/rent sight unseen
+</aside>
+</div>
+
+        </section>
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2021 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a><sup class="neu">new</sup></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li class="fsel desktop linklike" data-mode="mobile">mobile</li>
+        <li class="fsel mobile linklike" data-mode="regular">desktop</li>
+    </ul>
+</footer>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta property="og:site_name" content="craigslist">
+	<meta name="twitter:card" content="preview">
+	<meta property="og:title" content="SIMPLY THE VERY BEST IN UKRAINIAN VILLAGE, HEAT INCLUDED -...">
+	<meta name="description" content="STUNNING AND CLASSIC IN HEART OF UKRAINIAN VILLAGE WITH HEAT INCLUDED!!! This huge 2000 sf 2nd floor unit is a jewel. This unit is not typical or cookie cutter. Classic and very bright...windows...">
+	<meta property="og:description" content="STUNNING AND CLASSIC IN HEART OF UKRAINIAN VILLAGE WITH HEAT INCLUDED!!! This huge 2000 sf 2nd floor unit is a jewel. This unit is not typical or cookie cutter. Classic and very bright...windows...">
+	<meta property="og:image" content="https://images.craigslist.org/00I0I_V1BGmMdcQXz_0D40Nq_600x450.jpg">
+	<meta property="og:url" content="https://chicago.craigslist.org/wcl/apa/d/chicago-simply-the-very-best-in/7330663852.html">
+	<meta property="og:type" content="article">
+	<meta name="robots" content="noarchive,nofollow,unavailable_after: 02-Jul-21 11:08:20 CDT">
+	<meta name="geo.position" content="41.895832;-87.684454">
+	<meta name="geo.placename" content="chicago">
+	<meta name="geo.region" content="US-IL">
+	<title>SIMPLY THE VERY BEST IN UKRAINIAN VILLAGE, HEAT INCLUDED -...</title>
+	<link rel="canonical" href="https://chicago.craigslist.org/wcl/apa/d/chicago-simply-the-very-best-in/7330663852.html">
+
+<script type="application/ld+json" id="ld_breadcrumb_data" >
+    {"@context":"https://schema.org","itemListElement":[{"item":{"name":"chicago.craigslist.org","@id":"https://chicago.craigslist.org"},"position":1,"@type":"ListItem"},{"item":{"name":"west chicagoland","@id":"https://chicago.craigslist.org/wcl/"},"position":2,"@type":"ListItem"},{"item":{"name":"housing","@id":"https://chicago.craigslist.org/d/housing/search/wcl/hhh"},"position":3,"@type":"ListItem"},{"item":{"name":"apartments / housing for rent","@id":"https://chicago.craigslist.org/d/apartments-housing-for-rent/search/wcl/apa"},"position":4,"@type":"ListItem"},{"item":{"name":"SIMPLY THE VERY BEST IN UKRAINIAN VILLAGE, HEAT INCLUDED","@id":"https://chicago.craigslist.org/wcl/apa/d/chicago-simply-the-very-best-in/7330663852.html"},"position":5,"@type":"ListItem"}],"@type":"BreadcrumbList"}
+</script>
+
+    <style type="text/css">
+        #no-js,
+        #unsupported-browser,
+        #unrecoverable-error
+        {
+            display:none;
+        }
+
+        #curtain {
+            display:none;
+            z-index: 10000;
+            position:absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            margin:0;
+            border:0;
+            background-color:white;
+        }
+
+        html.no-js #no-js,
+        body.unsupported-browser #unsupported-browser,
+        body.unrecoverable-error #unrecoverable-error
+        {
+            display:block;
+            z-index: 10001;
+            position:absolute;
+            top:0;
+            left:0;
+            right:0;
+            font-family: Sans-Serif;
+            text-align: center;
+            background-color: #FA8787;
+            padding: 1em;
+        }
+
+        body.loading #curtain {
+        	display:block;
+        }
+    </style>
+
+
+    
+     
+     <script src="https://www.craigslist.org/static/www/482fb2bf6f66c3eb204748eb0940a3022405f1f5.js"></script>
+     <script>
+         window.cl.init(
+             'https://www.craigslist.org/static/www/',
+             '',
+             'www',
+             'posting',
+             {
+countOfTotalText: "image {count} of {total}",
+imageConfig: {"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}},
+maptileBaseUrl: "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png",
+pID: 7330663852,
+repost_of: 7135179158
+},
+             0
+         );
+     </script>
+     
+</head>
+<body class="loading hide-on-global-error posting" >
+    
+    <iframe id="cl-local-storage" src="https://www.craigslist.org/static/www/localStorage-092e9f9e2f09450529e744902aa7cdb3a5cc868d.html" style="display:none;"></iframe>
+    
+    <div id="curtain"></div>
+
+    <noscript id="no-js"><div>
+    We've detected that JavaScript is not enabled in your browser.
+    <br><br>
+    You must enable JavaScript to use craigslist.
+</div></noscript>
+<div id="unsupported-browser">
+    We've detected you are using a browser that is missing critical features.
+    <br><br>
+    Please visit craigslist from a modern browser.
+</div>
+<div id="unrecoverable-error">
+    There was an error loading the page; please try to refresh the page.
+</div>
+
+
+    <section class="page-container">
+        <div class="bglogo"></div>
+<div class="tryapp">
+    try the craigslist app &raquo;
+    <a class="appstorebtn"
+    href="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+        Android
+    </a>
+    <a class="appstorebtn"
+    href="https://apps.apple.com/us/app/craigslist/id1336642410">
+        iOS
+    </a>
+</div>
+<header class="global-header wide">
+   <a class="header-logo" name="logoLink" href="/">CL</a>
+
+    <nav class="breadcrumbs-container">
+
+<ul class="breadcrumbs">
+        <li class="crumb area">
+            <p>
+                    <a href="/">chicago</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb subarea">
+            <p>
+                    <a href="/wcl/">west chicagoland</a>
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb section">
+            <p>
+                    <a href="/search/wcl/hhh">housing</a>
+
+                    <span class="breadcrumb-arrow">&gt;</span>
+            </p>
+        </li>
+
+        <li class="crumb category">
+            <p>
+                <a href="/search/wcl/apa">apartments / housing for rent</a>
+
+            </p>
+        </li>
+
+</ul>
+    </nav>
+
+<div class="userlinks">
+    <ul class="user-actions">
+        <li class="user post">
+            <a href="https://post.craigslist.org/c/chi">post</a>
+        </li>
+        <li class="user account">
+            <a href="https://accounts.craigslist.org/login/home">account</a>
+        </li>
+    </ul>
+    <ul class="user-favs-discards">
+        <li class="user">
+            <div class="favorites">
+                <a href="#" class="favlink"><span class="icon icon-star fav" aria-hidden="true"></span><span class="fav-number"></span><span class="fav-label"> favorites</span></a>
+            </div>
+        </li>
+        <li class="user discards">
+            <form class="unfavform js-only" method="GET" action="/favorites">
+              <div class="to-banish-page">
+                <input type="hidden" class="unfaves" name="fl">
+                <input type="hidden" name="uf" value="1">
+                <a href="#" class="to-banish-page-link">
+                  <span class="icon icon-trash red" aria-hidden="true"></span>
+                  <span class="banished_count"></span>
+                  <span class="discards-label"> hidden</span>
+                </a>
+              </div>
+          </form>
+        </li>
+    </ul>
+</div>
+
+</header>
+<header class="global-header narrow">
+   <a class="header-logo" href="/">CL</a>
+    <nav class="breadcrumbs-container">
+
+<h1 class="breadcrumbs">
+
+west chicagoland            &gt;
+
+apartments / housing for rent</h1>
+
+
+    </nav>
+    <span class="linklike show-wide-header">...</span>
+</header>
+        <section class="body">
+<header class="dateReplyBar">
+    <div class="prevnext-sec">
+        <div class="prevnext js-only">
+    <a class="prev">&#9664;  prev </a>
+    <a class="backup" title="back to search">&#9650;</a>
+    <a class="next"> next &#9654; </a>
+</div>
+
+    </div>
+
+    <div class="reply-button-row">
+    <div class="actions-combo">
+    <button role="button" class="reply-button js-only" data-href="/reply/chi/apa/7330663852/__SERVICE_ID__">
+      reply
+    </button>
+
+      <div class="reply-info js-only"></div>
+    <div class="fave-unfave action">
+        <div class="fave" role="button"  title="add to favorites">
+            <div class="icon icon-star" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+        <div class="unfave" role="button" title="remove from favorites">
+            <div class="icon icon-star fav" aria-hidden="true"></div>
+            <div class="action-label">favorite</div>
+        </div>
+    </div>
+<div class="banish-unbanish action">
+  <div class="banish" data-url="https://post.craigslist.org/flag" role="button"  title="hide this posting">
+    <div class="icon icon-trash" aria-hidden="true"></div>
+    <div class="action-label">hide</div>
+  </div>
+  <div class="unbanish" data-url="https://post.craigslist.org/flag" role="button"  title="restore this posting">
+    <div class="icon icon-trash red" aria-hidden="true"></div>
+    <div class="action-label">unhide</div>
+  </div>
+</div>
+    <div class="flag-action action">
+        <div class="flag" data-url="https://post.craigslist.org/flag" role="button" title="flag as prohibited / spam / miscategorized" >
+            <div class="flagIcon" aria-hidden="true">
+                <span class="white-flag">&#9872;</span>
+                <span class="black-flag">&#9873;</span>
+            </div>
+            <div class="action-label">
+                flag
+            </div>
+        </div>
+        <div class="unflag">
+            <div class="flagIcon" aria-hidden="true">&#9873;</div>
+            <a class="action-label" href="https://www.craigslist.org/about/help/flags_and_community_moderation" title="thanks for flagging!">
+                flagged
+            </a>
+        </div>
+    </div>
+    </div>
+
+            <p id="display-date" class="postinginfo reveal">
+                    Posted
+                    <time class="date timeago" datetime="2021-06-02T11:08:20-0500">
+                        2021-06-02 11:08
+                    </time>
+            </p>
+
+            <p class="print-information print-contact">
+                Contact Information: <span class="print-email"></span> <span class="print-phone"></span>
+            </p>
+            <a href="#" id="printme">print</a>
+
+    </div>
+
+</header>
+
+<h1 class="postingtitle">
+    <span class="postingtitletext">
+<span class="price">$2,400</span> <span class="housing">/ 3br - 2000ft<sup>2</sup> - </span><span id="titletextonly">SIMPLY THE VERY BEST IN UKRAINIAN VILLAGE, HEAT INCLUDED</span><small> (ukrainian village)</small>    </span>
+</h1>
+<section class="userbody">
+    <figure class="iw multiimage">
+    <div class="gallery">
+        <span class="slider-back arrow">&lt;</span>
+        <span class="slider-info">image 1 of 12</span>
+        <span class="slider-forward arrow">&gt;</span>
+
+        <div class="swipe">
+            <div class="swipe-wrap">
+                <div id="1_image_V1BGmMdcQXz_0D40Nq" data-imgid="V1BGmMdcQXz_0D40Nq" class="slide first visible">
+                    <img src="https://images.craigslist.org/00I0I_V1BGmMdcQXz_0D40Nq_600x450.jpg" title="1" alt="1">
+                </div>
+                <div id="2_image_hAPeshIUrPcz_0QE0Du" data-imgid="hAPeshIUrPcz_0QE0Du" class="slide">
+                </div>
+                <div id="3_image_5YG0AWyn9Luz_1320MM" data-imgid="5YG0AWyn9Luz_1320MM" class="slide">
+                </div>
+                <div id="4_image_fuupivRnOjgz_0QE0Du" data-imgid="fuupivRnOjgz_0QE0Du" class="slide">
+                </div>
+                <div id="5_image_gzPa7NqNpqTz_0QE0Du" data-imgid="gzPa7NqNpqTz_0QE0Du" class="slide">
+                </div>
+                <div id="6_image_4nHC6Lv7egnz_0QE0Du" data-imgid="4nHC6Lv7egnz_0QE0Du" class="slide">
+                </div>
+                <div id="7_image_5tJbo2DQo52z_0QE0Du" data-imgid="5tJbo2DQo52z_0QE0Du" class="slide">
+                </div>
+                <div id="8_image_4fAT01j0x5Jz_0MM132" data-imgid="4fAT01j0x5Jz_0MM132" class="slide">
+                </div>
+                <div id="9_image_gHtf8YTPpFWz_1320MM" data-imgid="gHtf8YTPpFWz_1320MM" class="slide">
+                </div>
+                <div id="10_image_2rDwBQEUKW7z_1320MM" data-imgid="2rDwBQEUKW7z_1320MM" class="slide">
+                </div>
+                <div id="11_image_3o10Ck7mxDJz_1320MM" data-imgid="3o10Ck7mxDJz_1320MM" class="slide">
+                </div>
+                <div id="12_image_hzZxIV8Ar78z_0ZW0vB" data-imgid="hzZxIV8Ar78z_0ZW0vB" class="slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thumbs"><a id="1_thumb_V1BGmMdcQXz_0D40Nq" class="thumb" data-imgid="V1BGmMdcQXz_0D40Nq" href="https://images.craigslist.org/00I0I_V1BGmMdcQXz_0D40Nq_600x450.jpg" title="1"><img src="https://images.craigslist.org/00I0I_V1BGmMdcQXz_0D40Nq_50x50c.jpg" class="selected" alt="1"></a><a id="2_thumb_hAPeshIUrPcz_0QE0Du" class="thumb" data-imgid="hAPeshIUrPcz_0QE0Du" href="https://images.craigslist.org/00J0J_hAPeshIUrPcz_0QE0Du_600x450.jpg" title="2"><img src="https://images.craigslist.org/00J0J_hAPeshIUrPcz_0QE0Du_50x50c.jpg" alt="2"></a><a id="3_thumb_5YG0AWyn9Luz_1320MM" class="thumb" data-imgid="5YG0AWyn9Luz_1320MM" href="https://images.craigslist.org/00R0R_5YG0AWyn9Luz_1320MM_600x450.jpg" title="3"><img src="https://images.craigslist.org/00R0R_5YG0AWyn9Luz_1320MM_50x50c.jpg" alt="3"></a><a id="4_thumb_fuupivRnOjgz_0QE0Du" class="thumb" data-imgid="fuupivRnOjgz_0QE0Du" href="https://images.craigslist.org/00p0p_fuupivRnOjgz_0QE0Du_600x450.jpg" title="4"><img src="https://images.craigslist.org/00p0p_fuupivRnOjgz_0QE0Du_50x50c.jpg" alt="4"></a><a id="5_thumb_gzPa7NqNpqTz_0QE0Du" class="thumb" data-imgid="gzPa7NqNpqTz_0QE0Du" href="https://images.craigslist.org/00D0D_gzPa7NqNpqTz_0QE0Du_600x450.jpg" title="5"><img src="https://images.craigslist.org/00D0D_gzPa7NqNpqTz_0QE0Du_50x50c.jpg" alt="5"></a><a id="6_thumb_4nHC6Lv7egnz_0QE0Du" class="thumb" data-imgid="4nHC6Lv7egnz_0QE0Du" href="https://images.craigslist.org/00202_4nHC6Lv7egnz_0QE0Du_600x450.jpg" title="6"><img src="https://images.craigslist.org/00202_4nHC6Lv7egnz_0QE0Du_50x50c.jpg" alt="6"></a><a id="7_thumb_5tJbo2DQo52z_0QE0Du" class="thumb" data-imgid="5tJbo2DQo52z_0QE0Du" href="https://images.craigslist.org/00G0G_5tJbo2DQo52z_0QE0Du_600x450.jpg" title="7"><img src="https://images.craigslist.org/00G0G_5tJbo2DQo52z_0QE0Du_50x50c.jpg" alt="7"></a><a id="8_thumb_4fAT01j0x5Jz_0MM132" class="thumb" data-imgid="4fAT01j0x5Jz_0MM132" href="https://images.craigslist.org/00t0t_4fAT01j0x5Jz_0MM132_600x450.jpg" title="8"><img src="https://images.craigslist.org/00t0t_4fAT01j0x5Jz_0MM132_50x50c.jpg" alt="8"></a><a id="9_thumb_gHtf8YTPpFWz_1320MM" class="thumb" data-imgid="gHtf8YTPpFWz_1320MM" href="https://images.craigslist.org/00u0u_gHtf8YTPpFWz_1320MM_600x450.jpg" title="9"><img src="https://images.craigslist.org/00u0u_gHtf8YTPpFWz_1320MM_50x50c.jpg" alt="9"></a><a id="10_thumb_2rDwBQEUKW7z_1320MM" class="thumb" data-imgid="2rDwBQEUKW7z_1320MM" href="https://images.craigslist.org/00l0l_2rDwBQEUKW7z_1320MM_600x450.jpg" title="10"><img src="https://images.craigslist.org/00l0l_2rDwBQEUKW7z_1320MM_50x50c.jpg" alt="10"></a><a id="11_thumb_3o10Ck7mxDJz_1320MM" class="thumb" data-imgid="3o10Ck7mxDJz_1320MM" href="https://images.craigslist.org/01313_3o10Ck7mxDJz_1320MM_600x450.jpg" title="11"><img src="https://images.craigslist.org/01313_3o10Ck7mxDJz_1320MM_50x50c.jpg" alt="11"></a><a id="12_thumb_hzZxIV8Ar78z_0ZW0vB" class="thumb" data-imgid="hzZxIV8Ar78z_0ZW0vB" href="https://images.craigslist.org/00M0M_hzZxIV8Ar78z_0ZW0vB_600x450.jpg" title="12"><img src="https://images.craigslist.org/00M0M_hzZxIV8Ar78z_0ZW0vB_50x50c.jpg" alt="12"></a></div>
+    
+        <script type="text/javascript"><!--
+var imgList = [{"shortid":"V1BGmMdcQXz_0D40Nq","url":"https://images.craigslist.org/00I0I_V1BGmMdcQXz_0D40Nq_600x450.jpg","thumb":"https://images.craigslist.org/00I0I_V1BGmMdcQXz_0D40Nq_50x50c.jpg","imgid":"3:00I0I_V1BGmMdcQXz_0D40Nq"},{"shortid":"hAPeshIUrPcz_0QE0Du","url":"https://images.craigslist.org/00J0J_hAPeshIUrPcz_0QE0Du_600x450.jpg","thumb":"https://images.craigslist.org/00J0J_hAPeshIUrPcz_0QE0Du_50x50c.jpg","imgid":"3:00J0J_hAPeshIUrPcz_0QE0Du"},{"shortid":"5YG0AWyn9Luz_1320MM","url":"https://images.craigslist.org/00R0R_5YG0AWyn9Luz_1320MM_600x450.jpg","thumb":"https://images.craigslist.org/00R0R_5YG0AWyn9Luz_1320MM_50x50c.jpg","imgid":"3:00R0R_5YG0AWyn9Luz_1320MM"},{"shortid":"fuupivRnOjgz_0QE0Du","url":"https://images.craigslist.org/00p0p_fuupivRnOjgz_0QE0Du_600x450.jpg","thumb":"https://images.craigslist.org/00p0p_fuupivRnOjgz_0QE0Du_50x50c.jpg","imgid":"3:00p0p_fuupivRnOjgz_0QE0Du"},{"shortid":"gzPa7NqNpqTz_0QE0Du","url":"https://images.craigslist.org/00D0D_gzPa7NqNpqTz_0QE0Du_600x450.jpg","thumb":"https://images.craigslist.org/00D0D_gzPa7NqNpqTz_0QE0Du_50x50c.jpg","imgid":"3:00D0D_gzPa7NqNpqTz_0QE0Du"},{"shortid":"4nHC6Lv7egnz_0QE0Du","url":"https://images.craigslist.org/00202_4nHC6Lv7egnz_0QE0Du_600x450.jpg","thumb":"https://images.craigslist.org/00202_4nHC6Lv7egnz_0QE0Du_50x50c.jpg","imgid":"3:00202_4nHC6Lv7egnz_0QE0Du"},{"shortid":"5tJbo2DQo52z_0QE0Du","url":"https://images.craigslist.org/00G0G_5tJbo2DQo52z_0QE0Du_600x450.jpg","thumb":"https://images.craigslist.org/00G0G_5tJbo2DQo52z_0QE0Du_50x50c.jpg","imgid":"3:00G0G_5tJbo2DQo52z_0QE0Du"},{"shortid":"4fAT01j0x5Jz_0MM132","url":"https://images.craigslist.org/00t0t_4fAT01j0x5Jz_0MM132_600x450.jpg","thumb":"https://images.craigslist.org/00t0t_4fAT01j0x5Jz_0MM132_50x50c.jpg","imgid":"3:00t0t_4fAT01j0x5Jz_0MM132"},{"shortid":"gHtf8YTPpFWz_1320MM","url":"https://images.craigslist.org/00u0u_gHtf8YTPpFWz_1320MM_600x450.jpg","thumb":"https://images.craigslist.org/00u0u_gHtf8YTPpFWz_1320MM_50x50c.jpg","imgid":"3:00u0u_gHtf8YTPpFWz_1320MM"},{"shortid":"2rDwBQEUKW7z_1320MM","url":"https://images.craigslist.org/00l0l_2rDwBQEUKW7z_1320MM_600x450.jpg","thumb":"https://images.craigslist.org/00l0l_2rDwBQEUKW7z_1320MM_50x50c.jpg","imgid":"3:00l0l_2rDwBQEUKW7z_1320MM"},{"shortid":"3o10Ck7mxDJz_1320MM","url":"https://images.craigslist.org/01313_3o10Ck7mxDJz_1320MM_600x450.jpg","thumb":"https://images.craigslist.org/01313_3o10Ck7mxDJz_1320MM_50x50c.jpg","imgid":"3:01313_3o10Ck7mxDJz_1320MM"},{"shortid":"hzZxIV8Ar78z_0ZW0vB","url":"https://images.craigslist.org/00M0M_hzZxIV8Ar78z_0ZW0vB_600x450.jpg","thumb":"https://images.craigslist.org/00M0M_hzZxIV8Ar78z_0ZW0vB_50x50c.jpg","imgid":"3:00M0M_hzZxIV8Ar78z_0ZW0vB"}];
+--></script>
+    
+</figure>
+
+
+    <div class="mapAndAttrs">
+<div class="mapbox">
+    <div id="map" class="viewposting" data-latitude="41.895832" data-longitude="-87.684454" data-accuracy="15"></div>
+    <div class="mapaddress">oakley near chicago</div>
+    
+    <p class="mapaddress">
+        <small>
+            (<a target="_blank" href="https://www.google.com/maps/search/41.895832,-87.684454">google map</a>)
+        </small>
+    </p>
+    
+</div>
+
+    <p class="attrgroup">
+
+
+
+            <span class="shared-line-bubble"><b>3BR</b> / <b>1.5Ba</b></span>
+
+
+
+
+             <span class="shared-line-bubble"><b>2000</b>ft<sup>2</sup></span>
+
+    </p>
+    <p class="attrgroup">
+
+
+
+            <span>application fee details: <b>$60/person</b></span>
+            <br>
+
+
+
+
+            <span>apartment</span>
+            <br>
+
+
+
+
+            <span>laundry in bldg</span>
+            <br>
+
+
+
+
+            <span>detached garage</span>
+            <br>
+
+    </p>
+    </div>
+
+    <section id="postingbody">
+        <div class="print-information print-qrcode-container">
+            <p class="print-qrcode-label">QR Code Link to This Post</p>
+            <div class="print-qrcode" data-location="https://chicago.craigslist.org/wcl/apa/d/chicago-simply-the-very-best-in/7330663852.html"></div>
+        </div>
+STUNNING  AND CLASSIC IN HEART OF UKRAINIAN VILLAGE WITH HEAT INCLUDED!!!<br>
+<br>
+This huge 2000 sf 2nd floor unit is a jewel. This unit is not typical or cookie cutter.  Classic and very bright...windows literally all around!  Simply the very best of Ukrainian Village. Unit is huge with 3 good bedrooms and 1.5 bathrooms. Each room is an architectural marvel with beautiful original built-ins. An additional room could be used as an office or a guest room or a play room or just a stunning area for an office or to read. Beautiful, and separate dining and living areas.  In addition, a huge deck faces east, south and west.  Radiator heat is included in the price of rent.  Also, free laundry on premises. If needed, garage parking is available for $100. Bike storage is also provided in basement.  Wonderful location...walk to everything in the village, Wicker Park and surrounding areas.  Public transportation in every direction is literally a block away.  Coffee houses, Mariano's, Tuman's...all a short walk...as is Metra.<br>
+<br>
+Need 24 hr notice to current tenants.    </section>
+
+<ul class="notices">
+            <li>do NOT contact me with unsolicited services or offers</li>
+</ul>
+
+    <div class="postinginfos">
+            <p class="postinginfo">post id: 7330663852</p>
+                <p class="postinginfo reveal">posted: <time class="date timeago" datetime="2021-06-02T11:08:20-0500">2021-06-02 11:08</time></p>
+
+
+
+        <p class="postinginfo" id="share-button-container"></p>
+
+        <p class="postinginfo">
+              <a class="bestof-link" href="https://post.craigslist.org/flag" title="nominate for best-of-CL">
+                <span class="bestof-icon">&hearts; </span><span class="bestof-text">best of</span>
+              </a> <sup>[<a href="https://www.craigslist.org/about/best-of-craigslist">?</a>]</sup>
+        </p>
+        
+    </div>
+
+    <div class="print-information print-pics"></div>
+
+</section>
+
+<div class="psa-box">
+</div>
+
+<div class="avoid-scams">
+<aside class="tsb">
+    Please flag
+    <a href="https://www.craigslist.org/about/FHA">discriminatory housing ads</a> 
+</aside>
+
+<aside class="tsb">
+    <a href="https://www.craigslist.org/about/scams">Avoid scams, deal locally!</a>
+
+    <em>DO NOT wire funds (e.g. Western Union)</em>, or buy/rent sight unseen
+</aside>
+</div>
+
+        </section>
+<footer>
+    <ul class="clfooter">
+        <li>&copy; 2021 <span class="desktop">craigslist</span><span class="mobile">CL</span></li>
+        <li><a href="https://www.craigslist.org/about/help/">help</a></li>
+        <li><a href="https://www.craigslist.org/about/scams">safety</a></li>
+        <li class="desktop"><a href="https://www.craigslist.org/about/privacy.policy">privacy</a><sup class="neu">new</sup></li>
+        <li class="desktop"><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+        <li><a href="https://www.craigslist.org/about/terms.of.use">terms</a></li>
+        <li><a href="https://www.craigslist.org/about/">about</a></li>
+        <li class="fsel desktop linklike" data-mode="mobile">mobile</li>
+        <li class="fsel mobile linklike" data-mode="regular">desktop</li>
+    </ul>
+</footer>
+    </section>
+
+</body>
+</html>
