@@ -103,12 +103,13 @@ make_neighborhood_hulls <- function(neighborhood_data, neighborhood_column = "ne
 extract_neighborhoods <- function(descriptions, neighborhood_names, return_strings = TRUE){
   lapply(descriptions,
          function(description){
+           # Standardize everything to lowercase before searching
            description <- tolower(description)
            neighborhood_names <- vapply(neighborhood_names, tolower, "char")
            is_mentioned <- vapply(neighborhood_names, 
                                   function(nb) grepl(nb, description), 
                                   TRUE, 
-                                  USE.NAMES=TRUE
+                                  USE.NAMES=TRUE # Associates nb names to bool values
                                   )
            mentioned_neighborhoods <- names(is_mentioned)[is_mentioned]
            if (return_strings) return(mentioned_neighborhoods)
