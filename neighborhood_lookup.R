@@ -4,6 +4,10 @@ library(dplyr)   # Data wrangling etc.
 library(ggplot2) # Plotting
 library(readr)   # Read in csv
 
+tst <- 1:5
+
+lapply(tst, function(x) if(x==1) return(x))
+
 # Load in neighborhood boundary data, convert from US Census to lat/long
 neighborhoods <- 
   sf::st_read('maps/Neighborhoods_2012b.shp') %>% 
@@ -94,8 +98,42 @@ make_neighborhood_hulls <- function(neighborhood_data, neighborhood_column = "ne
   
 }
 
+
+# Lookup neighborhoods in descriptions
+extract_neighborhoods <- function(descriptions, neighborhood_names, return_strings = TRUE){
+  lapply(descriptions,
+         function(description){
+           description <- tolower(description)
+           neighborhood_names <- vapply(neighborhood_names, tolower, "char")
+           is_mentioned <- vapply(neighborhood_names, 
+                                  function(nb) grepl(nb, description), 
+                                  TRUE, 
+                                  USE.NAMES=TRUE
+                                  )
+           mentioned_neighborhoods <- names(is_mentioned)[is_mentioned]
+           if (return_strings) return(mentioned_neighborhoods)
+           return(is_mentioned)
+         }
+  )
+  
+  # Follow this with unnest(df, cols = neighborhood_column, keep_empty = TRUE)
+}
+
+# Sample description searches
+extract_neighborhoods(c("none", 
+                        "lake view", 
+                        "lakeviewuptown", 
+                        "lake view uptown"), 
+                      neighborhood_names$PRI_NEIGH, 
+                      return_strings = TRUE)
+
+neighborhood_test %>% 
+  select(post_id, neighborhood, latitude, longitude, posting_body) %>% 
+  mutate(mentioned_nbs = extract_neighborhoods(posting_body, neighborhood_names$PRI_NEIGH)) %>% 
+  tidyr::unnest(mentioned_nbs,keep_empty = TRUE)
+
 # Demo with scraped data
-scraped_data <- read_csv("CL_housing.csv")
+scraped_data <- read_csv("CL_housing_example.csv") %>% head()
 neighborhood_test <- add_neighborhood_column(scraped_data)
 
 # Create convex hull from neighborhood data
