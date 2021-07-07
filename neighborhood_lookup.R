@@ -3,11 +3,7 @@ library(rgdal)   # For CRS projection
 library(dplyr)   # Data wrangling etc.
 library(ggplot2) # Plotting
 library(readr)   # Read in csv
-
-tst <- 1:5
-
-lapply(tst, function(x) if(x==1) return(x))
-
+library(tidyr)   # Unnest
 # Load in neighborhood boundary data, convert from US Census to lat/long
 neighborhoods <- 
   sf::st_read('maps/Neighborhoods_2012b.shp') %>% 
