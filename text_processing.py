@@ -112,6 +112,7 @@ with open('data/CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
 
         # find posting title text which will include pricing, post title, and neighborhood (optional)
         title_text = soup.find('span', class_="postingtitletext")
+        title = title_text.find('span', id='titletextonly')
 
         # find pricing info, extract text, strip whitespace, remove non-integer characters
         pricing_info = title_text.find('span', class_="price")
@@ -236,7 +237,7 @@ with open('data/CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
         # easier to see what is going on
         post_details = {
             "post_id": post_id,
-            "title": soup.title.text,
+            "title": title.text,
             "price": price,
             "neighborhood": neighborhood,
             "map_address": map_address,
