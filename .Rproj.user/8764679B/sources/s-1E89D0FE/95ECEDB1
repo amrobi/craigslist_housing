@@ -1,0 +1,26 @@
+{
+    "id": "95ECEDB1",
+    "path": "D:/gitrepos/craigslist_housing/neighborhood_lookup.R",
+    "project_path": "neighborhood_lookup.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1626286674767.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "78,0",
+        "scrollLine": "54"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1626288245,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1626288245814,
+    "read_only": false,
+    "read_only_alternatives": []
+}
