@@ -89,10 +89,11 @@ with open('data/CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
 
     # get file path for each html file in directory
     
-    directory = 'scraped_data' # change this to whatever the directory of files is called
+    directory = 'html' # change this to whatever the directory of files is called
     counter = 0
-    for file in os.listdir(directory):
-        file_path = os.path.join(directory, file)
+    for idx, fname in enumerate(os.listdir(directory)):
+        file_path = os.path.join(directory, fname)
+        if idx % 100 == 0: print(idx)
         if not os.path.isfile(file_path):
             continue
 
@@ -101,7 +102,10 @@ with open('data/CL_housing.csv', 'w', newline='', encoding='utf-8') as csvfile:
             soup = BeautifulSoup(html_file, 'lxml')
 
         # get unique post ID
-        post_id = soup.find(string=re.compile("post id")).split(':')[1].strip()
+        try:
+            post_id = soup.find(string=re.compile("post id")).split(':')[1].strip()
+        except:
+            continue
 
         # get post url
         url = soup.find('link', rel='canonical').get('href')
