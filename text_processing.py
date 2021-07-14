@@ -86,7 +86,7 @@ if os.path.exists("data/csv_dumps/CL_housing.csv"):
 else: 
     open_mode = "w"
 
-with open('data/CL_housing.csv', open_mode, newline='', encoding='utf-8') as csvfile:
+with open('data/csv_dumps/CL_housing.csv', open_mode, newline='', encoding='utf-8') as csvfile:
     # these were generated from the dictionary keys at the end of all this code and just copied up here
     fieldnames = ['post_id', 'title', 'price', 'neighborhood', 'map_address', 'street_address', 'latitude', 'longitude', 'data_accuracy', 'posted', 'updated', 'available', 'housing_type', 'bedrooms', 'bathooms', 'laundry', 'parking', 'sqft', 'flooring', 'rent_period', 'app_fee', 'broker_fee', 'cats_ok', 'dogs_ok', 'no_smoking', 'furnished', 'wheelchair_access', 'AC', 'EV_charging', 'posting_body', 'images', 'url']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -244,7 +244,7 @@ with open('data/CL_housing.csv', open_mode, newline='', encoding='utf-8') as csv
             "post_id": post_id,
             "title": title.text,
             "price": price,
-            "neighborhood": neighborhood.strip('()'),
+            "neighborhood": neighborhood.strip().strip('()'),
             "map_address": map_address,
             "street_address": street_address,
             "latitude": latitude,
