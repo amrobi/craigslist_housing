@@ -244,7 +244,7 @@ with open('data/csv_dumps/CL_housing.csv', open_mode, newline='', encoding='utf-
             "post_id": post_id,
             "title": title.text,
             "price": price,
-            "neighborhood": neighborhood.strip('()'),
+            "neighborhood": neighborhood.strip().strip('()'),
             "map_address": map_address,
             "street_address": street_address,
             "latitude": latitude,
