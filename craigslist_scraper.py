@@ -43,3 +43,6 @@ def get_html_from_pages(number_of_pages, filepath=None, sleep_time=30):
         current_page += 120
         print("Sleeping now")
         time.sleep(sleep_time)
+
+if __name__ == '__main__':
+    get_html_from_pages(20, 'html', sleep_time=5)
