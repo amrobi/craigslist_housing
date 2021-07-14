@@ -244,7 +244,7 @@ with open('data/CL_housing.csv', open_mode, newline='', encoding='utf-8') as csv
             "post_id": post_id,
             "title": title.text,
             "price": price,
-            "neighborhood": neighborhood,
+            "neighborhood": neighborhood.strip('()'),
             "map_address": map_address,
             "street_address": street_address,
             "latitude": latitude,
