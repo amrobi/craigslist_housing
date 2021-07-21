@@ -1,10 +1,7 @@
 # -----------------------------------------------------------
-# Functions for analyzing scraped data from Craigslist scraper
+# Functions for cleaning/prepping raw data from Craigslist scraper
 # Northwestern University Linguistics, CoLLab 2021
 # -----------------------------------------------------------
-
-
-# TODO: Merge this with craiglist scraper and put into src folder
 
 import argparse
 import re
