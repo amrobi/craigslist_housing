@@ -10,12 +10,6 @@ from datetime import date
 import time
 import os
 
-
-# TODO: Merge this with text analysis and put into src folder
-# TODO: Put in command line args
-# TODO: Put in top line comment
-
-
 #%%
 def get_html_from_pages(number_of_pages, filepath=None, sleep_time=30):
     current_page = 360
